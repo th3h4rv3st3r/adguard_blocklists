@@ -1,0 +1,9 @@
+# Guitar DSPs Blocklist para AdGuard Home
+# Bloqueia ativação e serviços online do Positive Grid (BIAS FX, etc)
+
+||api.positivegrid.com^
+||bias-tonecloud-staging.herokuapp.com^
+||bias1.positivegrid.com^
+||pg-api-staging.herokuapp.com^
+||pg-tonecloud-webapp.herokuapp.com^
+||store.positivegrid.com^
