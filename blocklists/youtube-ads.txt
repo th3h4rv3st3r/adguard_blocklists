@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-03-25 07:44 UTC
-! Entries: 1493
+! Last modified: 2026-03-26 07:52 UTC
+! Entries: 1489
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1161,7 +1161,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
-||creator-youtube-os.com^
 ||dart-ad.l.doubleclick.net^
 ||doubleclick-cn.net^
 ||doubleclick.com^
@@ -1172,7 +1171,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||doubleclick.net^$popup
 ||doubleclickbygoogle.com^
 ||doubleclicks.biz^
-||downloadyoutubevideofree.shop^
 ||dredown.com/images/youtube.png$popup
 ||fcmatch.youtube.com^
 ||ff.doubleclick.net^
@@ -1209,13 +1207,11 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||iv.doubleclick.net^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
-||liveyoutubewithoutads.shop^
 ||m.doubleclick.net^
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||mediavisor.doubleclick.net^
 ||metrics.cbc.youtube.mercedes-benz.com^
 ||miniature-youtube.com^
-||movies-and-tv-shows-recaps-maker-for-youtube.com^
 ||n4403ad.doubleclick.net^
 ||pagead2.googleadservices.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||pagead2.googlesyndication.com/getconfig/sodar?$xhr,important,domain=decrypt.day
@@ -1455,6 +1451,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com/simgad/*?w=*&h=$domain=a2zupload.com,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
+||tracking.doubleclicked.com^
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
@@ -1466,8 +1463,10 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-clipper.online^
 ||youtube-dj.xyz^
 ||youtube-feed.app^
+||youtube-kol.com^
 ||youtube-mcp.ru^
 ||youtube-save.com^
+||youtube-search.ru^
 ||youtube-shorts-downloader.com^
 ||youtube-shorts.tech^
 ||youtube-site.com^
@@ -1489,15 +1488,12 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com^$domain=sarapbabe.com
 ||youtube.local^
 ||youtube4kdownloader.com/scripts/stats.js
-||youtubecenter.ru^
 ||youtubee.com^
 ||youtubee.top^
-||youtubeemailscrapperpro.info^
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.app^
 ||youtuberevanced.net^
 ||youtubesave.org^
 ||youtubetomp3music.com/static/js/pops-
 ||youtubevanced.tools^
-||youtubevideotextfree.shop^
 ||ytlarge.com/youtube/*728-90.
