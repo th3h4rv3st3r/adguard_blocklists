@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-01 08:07 UTC
-! Entries: 1496
+! Last modified: 2026-04-02 07:57 UTC
+! Entries: 1494
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1435,7 +1435,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||serverside.doubleclick.net^
 ||sexy-youtubers.com/fronfrontfront.js
 ||skachat-video-s-youtube-1.ru^
-||sleepytime-youtube.net^
 ||smetrics.cbc.youtube.mercedes-benz.com^
 ||static-doubleclick-net.l.google.com^
 ||static.doubleclick.net/instream/ad_status.js$domain=last.fm,redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
@@ -1460,6 +1459,8 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-bulk-transcript.com^
 ||youtube-clipper.com^
 ||youtube-clipper.online^
+||youtube-downloadder.online^
+||youtube-downloadder.ru^
 ||youtube-dub.com^
 ||youtube-feed.app^
 ||youtube-growth-engine.com^
@@ -1469,11 +1470,9 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-master.com^
 ||youtube-mcp.ru^
 ||youtube-quizr.com^
-||youtube-save.com^
 ||youtube-search.ru^
 ||youtube-site.com^
 ||youtube-studio-app.org^
-||youtube-thumbnail-downloader.in^
 ||youtube-tools.ru^
 ||youtube-transcribe.org^
 ||youtube-video-downloader.pro^
@@ -1499,7 +1498,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.app^
 ||youtuberevanced.net^
-||youtubers.id^
 ||youtubesave.org^
 ||youtubetomp3music.com/static/js/pops-
 ||youtubevanced.tools^
