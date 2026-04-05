@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-04 07:40 UTC
-! Entries: 1497
+! Last modified: 2026-04-05 07:46 UTC
+! Entries: 1498
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1108,39 +1108,32 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||ad.fi.doubleclick.net^
 ||ad.fr.doubleclick.net^
 ||ad.gr.doubleclick.net^
-||ad.gt.doubleclick.net^
 ||ad.hk.doubleclick.net^
 ||ad.hr.doubleclick.net^
 ||ad.hu.doubleclick.net^
 ||ad.ie.doubleclick.net^
 ||ad.il.doubleclick.net^
 ||ad.in.doubleclick.net^
-||ad.is.doubleclick.net^
 ||ad.it.doubleclick.net^
 ||ad.jp.doubleclick.net^
 ||ad.kr.doubleclick.net^
-||ad.kw.doubleclick.net^
 ||ad.ma.doubleclick.net^
 ||ad.me.doubleclick.net^
 ||ad.mo.doubleclick.net^
-||ad.mx.doubleclick.net^
 ||ad.my.doubleclick.net^
 ||ad.n2434.doubleclick.net^
 ||ad.nl.doubleclick.net^
 ||ad.no.doubleclick.net^
 ||ad.nz.doubleclick.net^
-||ad.ph.doubleclick.net^
 ||ad.pk.doubleclick.net^
 ||ad.pl.doubleclick.net^
 ||ad.pt.doubleclick.net^
 ||ad.ro.doubleclick.net^
 ||ad.rs.doubleclick.net^
 ||ad.ru.doubleclick.net^
-||ad.sa.doubleclick.net^
 ||ad.se.doubleclick.net^
 ||ad.sg.doubleclick.net^
 ||ad.si.doubleclick.net^
-||ad.sk.doubleclick.net^
 ||ad.terra.doubleclick.net^
 ||ad.th.doubleclick.net^
 ||ad.tr.doubleclick.net^
@@ -1201,6 +1194,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$redirect=noop-1s.mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com,media
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
+||h2dev-youtube.com^
 ||hager.com/*/youtubeblocker.js
 ||hajimete-youtube.com^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
@@ -1438,6 +1432,10 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||skachat-video-s-youtube-2.ru^
 ||skachat-video-s-youtube-3.ru^
 ||skachat-video-s-youtube-4.ru^
+||skachat-video-s-youtube-5.ru^
+||skachat-video-s-youtube-6.ru^
+||skachat-video-s-youtube-7.ru^
+||skachat-video-s-youtube-8.ru^
 ||smetrics.cbc.youtube.mercedes-benz.com^
 ||static-doubleclick-net.l.google.com^
 ||static.doubleclick.net/instream/ad_status.js$domain=last.fm,redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
@@ -1453,6 +1451,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com/simgad/*?w=*&h=$domain=a2zupload.com,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
+||utano-youtube-checker.com^
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
@@ -1469,9 +1468,11 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-instantcontentcreator.com^
 ||youtube-kol.com^
 ||youtube-labo.com^
+||youtube-leicht-gemacht.de^
 ||youtube-master.com^
 ||youtube-mcp.ru^
 ||youtube-mp3-music.com^
+||youtube-muziek-downloaden.nl^
 ||youtube-quizr.com^
 ||youtube-search.ru^
 ||youtube-site.com^
