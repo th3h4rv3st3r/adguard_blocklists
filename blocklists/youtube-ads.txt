@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-16 08:20 UTC
-! Entries: 1533
+! Last modified: 2026-04-17 08:19 UTC
+! Entries: 1528
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -640,7 +640,6 @@ billiongraves.com##.DoubleClickAdWrapper
 bizjournals.com##+js(prevent-fetch, /pagead2\.googlesyndication\.com|cdn\.cxense\.com|securepubads\.g\.doubleclick\.net/)
 biznesradar.pl##+js(prevent-fetch, pagead2.googlesyndication.com)
 blog.nationapk.com##+js(prevent-fetch, pagead2.googlesyndication.com)
-bluetechno.net,healthy4pepole.com,world2our.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 bombuj.si##+js(prevent-fetch, pagead2.googlesyndication.com)
 bookoflists.pl##+js(prevent-fetch, pagead2.googlesyndication.com)
 breatheheavy.com##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -748,6 +747,7 @@ hackernoon.com##.articles-wrapper > div:not([class]):has(a[href^="https://ad.dou
 hackr.io##+js(prevent-fetch, pagead2.googlesyndication.com)
 hacksnation.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 hardwaretimes.com##a[href="https://www.youtube.com/@pcopset"]
+healthy4pepole.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 heavy.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 hecker.likesyou.org##+js(no-xhr-if, pagead2.googlesyndication.com)
 hentaigasm.com##+js(prevent-fetch, agead2.googlesyndication.com/pagead/js/adsbygoogle.js)
@@ -886,7 +886,6 @@ quienhabla.mx##+js(no-xhr-if, pagead2.googlesyndication.com)
 r-34.xyz,simply-hentai.com,turbo.cr,upload18.com,luluvids.top,paipancon.com,verhentai.top,muchohentai.com,mangago.me,turbovid.*,javx357.com,animebr.org,celebritydeeplink.com,japaneseholes.com,javlab.net,javmeta.com,vipserije.com,javideo.net,advertape.net,cyberdrop.*,popjav.in,vevocloud.com,x-fetish.tube,myvidplay.com,arigl.com,saint2.*,imgbox.com,mens1069.com,simpcity.*,javfan.one,jmanga.*,javfc2.xyz,nukibooks.com,jpg6.su,luluvid.com,jav.si,javtiful.com,pornslash.com,hentai2w.com,javpas.com,nsfwr34.com,luluvdoo.com,tojav.net,ekasiwap.com,xxgasm.com,javmenu.com,porntin.com,asianporn.li,javfor.tv,shinshi-manga.net,asmr18.fans,b-hentai.com,jav-fun.cc,rawkuma.net,spoilerplus.tv,daftporn.com,thefappeningblog.com,javboys.com,empressleak.biz,ddd-smart.net,rule34.*,archivebate.*,apkhosto.com,jpg5.su,nsfwyoutube.com,thefappening.pro,javhd.*,javhdz.today,fapeza.com,xmalay1.net,animeworld.*,natomanga.com,play.playkrx18.site,missavtv.com,poapan.xyz,nudogram.com,watchadsontape.com,streamtape.com,18comic.vip,18comic-gquu.vip,mitaku.net,hitomi.la,klmanga.app,mangarawjp.tv,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,xanimeporn.com##+js(abort-current-script, WebAssembly, atob)
 rajsayt.xyz##+js(prevent-fetch, pagead2.googlesyndication.com)
 readcomiconline.li##+js(no-xhr-if, /bidgear\.com|mgid\.com|pagead2\.googlesyndication\.com/)
-realmadryt.pl##+js(prevent-fetch, /optad360\.io|pagead2\.googlesyndication\.com/)
 redbook.com.au##.is-section-doubleclickad
 rendimentibtp.it##+js(prevent-fetch, pagead2.googlesyndication.com)
 replica-watch.info##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -1328,7 +1327,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,redirect=googlesyndication_adsbygoogle.js,domain=livehindustan.com,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,redirect=googlesyndication_adsbygoogle.js,domain=makefreecallsonline.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,redirect=googlesyndication_adsbygoogle.js,domain=moviemakeronline.com,important
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,redirect=googlesyndication_adsbygoogle.js,domain=redirect.dafontvn.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,redirect=googlesyndication_adsbygoogle.js,domain=scat.gold
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,redirect=googlesyndication_adsbygoogle.js,domain=suryaindosinga.co|magesy.blog|blog.miuiflash.com|freewebcart.com|hentaiseason.com|obutecodanet.ig.com.br|freegogpcgames.com|softwaretotal.net|ozabc.com|kopetnews.id|chimicamo.org|sampledrive.in|freecoursesites.com|hulnews.top|routech.ro|hiseku.com|bithub.win|mytechroad.com|38.242.198.170|enrology.in|jojo-themes.net|freedidi.com|gezegenforum.com|eoydo.com|crunchyscan.fr|boainformacao.com.br|manyakan.com|moviessquad.com|dengeki-plusv2.xyz|bullfrag.com|epainfo.pl|ypojie.com|cinemakottaga.*|baominh.tech|sachiepvien.net|downloadcursos.org|jkmeng.cn|trgamestudio.com|audiobooks4soul.com|vfxdownload.net|electomania.es|captionsgram.com|alilove.pl|sqlserveregitimleri.com|tokuvn.com|texture-packs.com|pcwarehub.com|pbarecap.ph|tinyppt.com|nullpress.net|5.182.211.129|hataphim.com|gigacourse.com|cyfostreams.com|htstreaming.com|freewebcart.com|watchmdh.to|ssf-co.com|downloadtutorials.net|win10.vn|legaartis.pl|legendary-rt-textures.xyz|globfone.com|blogging-techies.com|privatemoviez.*|courseclub.me|behindzscene.net|shineads.in|conhecimentolivre.net|downloadcursos.top|freecoursesite.com|persianhive.com|eductin.com|juegoscocinarpasteleria.org|blisseyhusband.in|cronachedellacampania.it|applexgen.com|desktophut.com|infofuge.com|pinsystem.co.uk|grafixfather.com|globalrph.com|cyberdefensemagazine.com|vectogravic.com|teknotaci.com|onlinecoursebay.com|scrapywar.com|worldpremiumware.online|godmods.com|nulljungle.com|fikiri.net|merkulov.design|cardiagn.com|nulleb.com|dr-farfar.com|netfuck.net|onlinefreecourse.net|themeslide.com|freewebcart.com|choq.fm|pentruea.com|software-on.com|tunovelaligera.com|open3dmodel.com|dr-farfar.com|fcportables.com|nsfw247.to|elrellano.com|tehnografi.com|filecr.com|usb-antivirus.com|kursors.lv|novelmultiverse.com|adibenha.com|tutorialsplanet.net|gaypornhdfree.com|tech-story.net|tokuvn.com|freepreset.net|superembeds.com|animekhor.xyz|temi.pl|apkmagic.com.ar|nullphpscript.com|gocmod.com|techsmoon.com|magesy.pro|magesy.blog|wordpredia.com|comentariodetexto.com|myqqjd.com|windowslite.net|dvdporngay.com|karanpc.com|weadown.com|an1me.nl|nurparatodos.com.ar|movi.pk|unofficialtwrp.com|brasilsimulatormods.com|taodung.com|ipamod.com|francescopelliccia.it|fapdrop.com|azoranov.com|daotranslate.com|androjungle.com|filegajah.com|seriesperu.com|megafire.net|shineads.org|gplastra.com|kuponigo.com|step-tech.pl|thecustomrom.com|plc247.com|uiiumovie.*|tavernadequadrinhos.com.br|teksnologi.com|porninblack.com|emptycode.in|tech5s.co|7xm.xyz|serverbd247.com|cctvwiki.com|luciferdonghua.in|filmefarsi.com|pinsystem.co.uk|tuxnews.it|sonixgvn.net|downfile.site|daotranslate.com|kisahdunia.com|mixrootmods.com|javindo.eu.org|snlookup.com|vietnoiket.com|plc4me.com|qcscertification.com|ezaudiobookforsoul.com|apkdelisi.net|thepresetsroom.com|tromcap.com|mangaflame.org|drivers.plus|audiotools.blog|okpeliz.com|tuktukcinma.com|shorttrick.in|poplinks.sbs|mangacrab.org|cehennemstream.xyz
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,redirect=googlesyndication_adsbygoogle.js,domain=tricksplit.io
@@ -1432,9 +1430,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noop.js,important,domain=link.rota.cc
 ||serverside.doubleclick.net^
 ||sexy-youtubers.com/fronfrontfront.js
-||skachat-video-s-youtube-2.ru^
-||skachat-video-s-youtube-3.ru^
-||skachat-video-s-youtube-4.ru^
 ||skachat-video-s-youtube-5.ru^
 ||skachat-video-s-youtube-6.ru^
 ||skachat-video-s-youtube-7.ru^
@@ -1470,6 +1465,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-collisora.top^
 ||youtube-corelyx.top^
 ||youtube-cryptexon.top^
+||youtube-down.com^
 ||youtube-downloader.ru^
 ||youtube-droprix.top^
 ||youtube-edgetrix.top^
@@ -1480,7 +1476,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-gatelon.top^
 ||youtube-gridxa.top^
 ||youtube-hopify.top^
-||youtube-improvements-extension.store^
 ||youtube-jittora.top^
 ||youtube-latencyx.top^
 ||youtube-leicht-gemacht.de^
@@ -1488,7 +1483,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-maskora.top^
 ||youtube-meshallon.top^
 ||youtube-monopole.com^
-||youtube-mp3-music.com^
 ||youtube-muziek-downloaden.nl^
 ||youtube-netroptic.top^
 ||youtube-nodifyx.top^
@@ -1513,7 +1507,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-tools.pro^
 ||youtube-trunkify.top^
 ||youtube-trunkora.top^
-||youtube-video-ratings.com^
 ||youtube-vlanify.top^
 ||youtube-wallix.top^
 ||youtube.berlin^
@@ -1531,12 +1524,14 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com/youtubei/v1/player/ad_break
 ||youtube.com^$domain=sarapbabe.com
 ||youtube.local^
+||youtube.pay^
 ||youtube4kdownloader.com/scripts/stats.js
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
+||youtubenb.com^
 ||youtuberevanced.app^
 ||youtuberevanced.net^
-||youtubervideo.com^
+||youtuberpedia.com^
 ||youtubesave.org^
 ||youtubetomp3music.com/static/js/pops-
 ||youtubevanced.tools^
