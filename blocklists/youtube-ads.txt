@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-17 08:19 UTC
-! Entries: 1528
+! Last modified: 2026-04-18 07:51 UTC
+! Entries: 1524
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1200,7 +1200,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$redirect=noop-1s.mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com,media
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
-||h2dev-youtube.com^
 ||hager.com/*/youtubeblocker.js
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
@@ -1450,7 +1449,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com/simgad/*?w=*&h=$domain=a2zupload.com,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
-||utano-youtube-checker.com^
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
@@ -1504,6 +1502,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-switchonix.top^
 ||youtube-syncrix.top^
 ||youtube-tags-generator.com^
+||youtube-to-mp3-converter.com^
 ||youtube-tools.pro^
 ||youtube-trunkify.top^
 ||youtube-trunkora.top^
@@ -1524,14 +1523,11 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com/youtubei/v1/player/ad_break
 ||youtube.com^$domain=sarapbabe.com
 ||youtube.local^
-||youtube.pay^
 ||youtube4kdownloader.com/scripts/stats.js
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
-||youtubenb.com^
 ||youtuberevanced.app^
 ||youtuberevanced.net^
-||youtuberpedia.com^
 ||youtubesave.org^
 ||youtubetomp3music.com/static/js/pops-
 ||youtubevanced.tools^
