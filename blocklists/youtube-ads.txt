@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-19 07:59 UTC
-! Entries: 1522
+! Last modified: 2026-04-20 09:03 UTC
+! Entries: 1521
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1154,7 +1154,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||adservice.google.com/adsid/integrator.js$script,redirect=noop.js,domain=961thebreeze.com
 ||afs.googleadservices.com^
 ||analytics.youtube.com^
-||autoyoutube.com^
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
@@ -1499,6 +1498,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-switchonix.top^
 ||youtube-syncrix.top^
 ||youtube-tags-generator.com^
+||youtube-thumbnail-grabber.in^
 ||youtube-to-mp3-converter.com^
 ||youtube-tools.pro^
 ||youtube-trunkify.top^
@@ -1525,7 +1525,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.app^
 ||youtuberevanced.net^
-||youtubersnetwork.com^
 ||youtubesave.org^
 ||youtubetomp3music.com/static/js/pops-
 ||youtubevanced.tools^
