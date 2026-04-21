@@ -1,7 +1,7 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-20 09:03 UTC
+! Last modified: 2026-04-21 08:24 UTC
 ! Entries: 1521
 ! Expires: 1 day
 !
@@ -851,6 +851,7 @@ now.us,now.gg##+js(prevent-fetch, pagead2.googlesyndication.com)
 nsfwyoutube.com##.embed-container > h2:contains(Watch the Featured Video of the Day)
 nsfwyoutube.com##img[src*="data"]
 nudecams.xxx##+js(no-xhr-if, pagead2.googlesyndication.com)
+nutripulse.one,vercel.app,zdrive.to,1moviesz.to,apksum.com,xvideos-full.com,freemanga.me,funlove.info,javsubidn.tv,streamvid.dev,vidnest.live,vidnest.io,familyporn.tv,5play.app,bingespree.net,spencerdevs.xyz,easyvidplayer.com,cloudhostingz.com,sharedwebs.com,fitnessplanss.com,porn4days.blue,embedplayer.site,animahd.com,exposestrat.com,embedsports.top,vidplayer.live,vik1ngfile.site,fbol.top,sterham.net,embed4me.com,megatukmax.xyz,primewire.tf,ytapi.cc,mygomp3.com,imagebam.com,ezplayer.me,datavaults.co,clickapi.net,y2down.cc,themezon.net,serverguidez.com,streamup.ws,vidlink.pro,cdn.hentaianimezone.com,themezon.net,galaxyporn.net,teknoasian.com,downloadyoutubesubtitles.com,alex71.com,kecapku.com,vidfast.pro,pornharlot.net,meong.club,hianimez.*,travelironguide.com,kreditexperte.online,shortnest.com,vikingf1le.us.to,mixzdrive.com,get.linkbulks.com,play.upns.live,dropzy.io,dayuploads.com,filespayouts.com,ranoz.gg,zovo.ink,manhwahentai.me,filespayout.com,1movielinkbd.com,ytmp3.la,swiftuploads.com,techbloogs.com,oii.la,englismovies.pro,tpi.li,go.cloutgist.com,brbeast.com,vidsrc2.*,tutwuri.id,lokerwfh.net,insmyst.com,iir.la,tvi.la,cosplay18.pics,hianime.*,mobiletvshows.site,movies4u.*,x-x-x.tube,pornx.to,4khd.com,dlhd.*,kissanime.*,vidsrc.*,pahe.*##+js(no-window-open-if)
 odsluchane.eu##+js(prevent-fetch, pagead2.googlesyndication.com)
 offidocs.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 oggitreviso.it##+js(no-xhr-if, pagead2.googlesyndication.com, true)
@@ -1064,7 +1065,6 @@ youtubetranscript.com###video_col a[target="_blank"] > img
 ytapi.cc##+js(prevent-fetch, pagead2.googlesyndication.com)
 za.gl,za.uy##+js(prevent-fetch, pagead2.googlesyndication.com)
 zdopravy.cz##+js(prevent-fetch, pagead2.googlesyndication.com)
-zdrive.to,1moviesz.to,apksum.com,xvideos-full.com,freemanga.me,funlove.info,javsubidn.tv,streamvid.dev,vidnest.live,vidnest.io,familyporn.tv,5play.app,bingespree.net,spencerdevs.xyz,easyvidplayer.com,cloudhostingz.com,sharedwebs.com,fitnessplanss.com,porn4days.blue,embedplayer.site,animahd.com,exposestrat.com,embedsports.top,vidplayer.live,vik1ngfile.site,fbol.top,sterham.net,embed4me.com,megatukmax.xyz,primewire.tf,ytapi.cc,mygomp3.com,imagebam.com,ezplayer.me,datavaults.co,clickapi.net,y2down.cc,themezon.net,serverguidez.com,streamup.ws,vidlink.pro,cdn.hentaianimezone.com,themezon.net,galaxyporn.net,teknoasian.com,downloadyoutubesubtitles.com,alex71.com,kecapku.com,vidfast.pro,pornharlot.net,meong.club,hianimez.*,travelironguide.com,kreditexperte.online,shortnest.com,vikingf1le.us.to,mixzdrive.com,get.linkbulks.com,play.upns.live,dropzy.io,dayuploads.com,filespayouts.com,ranoz.gg,zovo.ink,manhwahentai.me,filespayout.com,1movielinkbd.com,ytmp3.la,swiftuploads.com,techbloogs.com,oii.la,englismovies.pro,tpi.li,go.cloutgist.com,brbeast.com,vidsrc2.*,tutwuri.id,lokerwfh.net,insmyst.com,iir.la,tvi.la,cosplay18.pics,hianime.*,mobiletvshows.site,movies4u.*,x-x-x.tube,pornx.to,4khd.com,dlhd.*,kissanime.*,vidsrc.*,pahe.*##+js(no-window-open-if)
 zeriun.cc##+js(prevent-fetch, pagead2.googlesyndication.com)
 zeroupload.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 zippyshare.day##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -1154,6 +1154,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||adservice.google.com/adsid/integrator.js$script,redirect=noop.js,domain=961thebreeze.com
 ||afs.googleadservices.com^
 ||analytics.youtube.com^
+||autoyoutube.com^
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
@@ -1461,7 +1462,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-corelyx.top^
 ||youtube-cryptexon.top^
 ||youtube-down.com^
-||youtube-downloader.ru^
 ||youtube-droprix.top^
 ||youtube-edgetrix.top^
 ||youtube-etharish.top^
@@ -1470,6 +1470,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-framulon.top^
 ||youtube-gatelon.top^
 ||youtube-gridxa.top^
+||youtube-hd.com^
 ||youtube-hopify.top^
 ||youtube-jittora.top^
 ||youtube-latencyx.top^
@@ -1497,7 +1498,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-subnetix.top^
 ||youtube-switchonix.top^
 ||youtube-syncrix.top^
-||youtube-tags-generator.com^
 ||youtube-thumbnail-grabber.in^
 ||youtube-to-mp3-converter.com^
 ||youtube-tools.pro^
