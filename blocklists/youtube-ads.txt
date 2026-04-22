@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-21 08:24 UTC
-! Entries: 1521
+! Last modified: 2026-04-22 08:22 UTC
+! Entries: 1519
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -360,7 +360,6 @@ $xhr,3p,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|dood
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=cwtv.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=dailycaller.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=indiatimes.com
-@@||partner.googleadservices.com/gpt/pubads_impl_$domain=mycokerewards.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=simple.ripley.cl
 @@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=muscleandfitness.com
 @@||partner.googleadservices.com^$domain=popsugar.com
@@ -725,7 +724,6 @@ garoetpos.com,ketubanjiwa.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 getexploits.com##+js(prevent-fetch, googleads.g.doubleclick.net)
 getintoway.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 getpaidtowritearticle.com##+js(prevent-fetch, pagead2.googlesyndication.com)
-getthit.com##+js(prevent-fetch, /pagead2\.googlesyndication\.com|googletagmanager\.com/)
 giornaledibrescia.it##+js(prevent-fetch, www3.doubleclick.net)
 goal.com##a[href^="https://ad.doubleclick.net/"]
 gocmod.com##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -1154,7 +1152,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||adservice.google.com/adsid/integrator.js$script,redirect=noop.js,domain=961thebreeze.com
 ||afs.googleadservices.com^
 ||analytics.youtube.com^
-||autoyoutube.com^
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
@@ -1236,7 +1233,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=convert.guru
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=dishy.co.ke,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=dwgshare.com
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=findandfound.ga
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=fontyukle.net
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=forum.release-apk.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=getintopc.com
@@ -1471,6 +1467,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-gatelon.top^
 ||youtube-gridxa.top^
 ||youtube-hd.com^
+||youtube-helper.com^
 ||youtube-hopify.top^
 ||youtube-jittora.top^
 ||youtube-latencyx.top^
@@ -1523,6 +1520,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube4kdownloader.com/scripts/stats.js
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
+||youtubenb.com^
 ||youtuberevanced.app^
 ||youtuberevanced.net^
 ||youtubesave.org^
