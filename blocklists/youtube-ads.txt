@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-26 08:09 UTC
-! Entries: 1521
+! Last modified: 2026-04-27 09:11 UTC
+! Entries: 1522
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1166,7 +1166,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||doubleclickbygoogle.com^
 ||doubleclicks.biz^
 ||dredown.com/images/youtube.png$popup
-||fanza-youtube.com^
 ||fcmatch.youtube.com^
 ||ff.doubleclick.net^
 ||fls.doubleclick.net^
@@ -1178,6 +1177,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||g.doubleclick.net/pagead/ads?gdpr=$subdocument,redirect=noop.html,domain=decrypt.day
 ||g.doubleclick.net^
 ||gan.doubleclick.net^
+||google-adsgdoubleclick.com^
 ||googleads.g.doubleclick.net/pagead/ads$redirect=noop.html,domain=forum.release-apk.com,subdocument
 ||googleads.g.doubleclick.net/pagead/html/*.html$subdocument,redirect-rule=noop.html,domain=decrypt.day
 ||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup.html$redirect=noop.html,domain=forum.release-apk.com,subdocument
@@ -1208,6 +1208,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||mediavisor.doubleclick.net^
 ||metrics.cbc.youtube.mercedes-benz.com^
+||my-youtube-channel.com^
 ||n4403ad.doubleclick.net^
 ||pagead2.googleadservices.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||pagead2.googlesyndication.com/getconfig/sodar?$xhr,important,domain=decrypt.day
@@ -1476,7 +1477,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-maskora.top^
 ||youtube-mcp.com^
 ||youtube-meshallon.top^
-||youtube-monopole.com^
 ||youtube-netroptic.top^
 ||youtube-nodifyx.top^
 ||youtube-notice.net^
@@ -1521,6 +1521,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com^$domain=sarapbabe.com
 ||youtube.local^
 ||youtube4kdownloader.com/scripts/stats.js
+||youtubeconvertto.com^
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.app^
