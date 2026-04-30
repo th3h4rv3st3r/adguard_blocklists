@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-29 09:03 UTC
-! Entries: 1480
+! Last modified: 2026-04-30 09:06 UTC
+! Entries: 1479
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -745,7 +745,6 @@ hackernoon.com##.articles-wrapper > div:not([class]):has(a[href^="https://ad.dou
 hackr.io##+js(prevent-fetch, pagead2.googlesyndication.com)
 hacksnation.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 hardwaretimes.com##a[href="https://www.youtube.com/@pcopset"]
-healthy4pepole.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 heavy.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 hecker.likesyou.org##+js(no-xhr-if, pagead2.googlesyndication.com)
 hentaigasm.com##+js(prevent-fetch, agead2.googlesyndication.com/pagead/js/adsbygoogle.js)
@@ -1210,6 +1209,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||mediavisor.doubleclick.net^
 ||metrics.cbc.youtube.mercedes-benz.com^
+||mp3-youtube.net^
 ||my-youtube-channel.com^
 ||n4403ad.doubleclick.net^
 ||pagead2.googleadservices.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
@@ -1431,6 +1431,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noop.js,important,domain=link.rota.cc
 ||serverside.doubleclick.net^
 ||sexy-youtubers.com/fronfrontfront.js
+||slushat-youtube.ru^
 ||smetrics.cbc.youtube.mercedes-benz.com^
 ||static-doubleclick-net.l.google.com^
 ||static.doubleclick.net/instream/ad_status.js$domain=last.fm,redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
@@ -1450,7 +1451,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
 ||youtube-banner-maker.com^
-||youtube-bez-vpn.top^
 ||youtube-down.com^
 ||youtube-hd.com^
 ||youtube-helper.com^
@@ -1481,7 +1481,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube4kdownloader.com/scripts/stats.js
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
-||youtubenn.com^
 ||youtuberevanced.app^
 ||youtuberevanced.net^
 ||youtubesave.org^
