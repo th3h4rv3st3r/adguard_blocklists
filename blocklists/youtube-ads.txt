@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-04-30 09:06 UTC
-! Entries: 1479
+! Last modified: 2026-05-01 08:52 UTC
+! Entries: 1493
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1170,6 +1170,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||ff.doubleclick.net^
 ||fls.doubleclick.net^
 ||free-youtube-transcript.com^
+||fuga-youtube.ru^
 ||g.doubleclick.net/gampad/ads?$xhr,removeparam=/^(cookie|ga_|u_)/,domain=soranews24.com
 ||g.doubleclick.net/gpt/pubads_impl_$script,domain=investopedia.com,important
 ||g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299$subdocument,redirect=noop.html,domain=pvpoke-re.com
@@ -1200,6 +1201,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$redirect=noop-1s.mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com,media
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||gw-youtube.com^
+||h2dev-youtube.com^
 ||hager.com/*/youtubeblocker.js
 ||iptv-youtube.com^
 ||kursy-youtube.pro^
@@ -1431,6 +1433,10 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noop.js,important,domain=link.rota.cc
 ||serverside.doubleclick.net^
 ||sexy-youtubers.com/fronfrontfront.js
+||skachat-video-s-youtube-5.ru^
+||skachat-video-s-youtube-6.ru^
+||skachat-video-s-youtube-7.ru^
+||skachat-video-s-youtube-8.ru^
 ||slushat-youtube.ru^
 ||smetrics.cbc.youtube.mercedes-benz.com^
 ||static-doubleclick-net.l.google.com^
@@ -1447,23 +1453,31 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$domain=a2zupload.com|a2zapk.co,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
+||unyoutube.net^
+||utano-youtube-checker.com^
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
 ||youtube-banner-maker.com^
-||youtube-down.com^
+||youtube-dmca.cfd^
+||youtube-downloader.ru^
 ||youtube-hd.com^
 ||youtube-helper.com^
+||youtube-leicht-gemacht.de^
 ||youtube-mcp.com^
+||youtube-muziek-downloaden.nl^
+||youtube-pislya-opivnochi.online^
 ||youtube-prernium.com^
 ||youtube-site.com^
 ||youtube-summarizer.com^
+||youtube-tags-generator.com^
 ||youtube-thumb-nail-download.com^
 ||youtube-thumbnail-download.watch^
 ||youtube-thumbnail-grabber.in^
 ||youtube-to-mp3-converter.com^
 ||youtube-to-transcript.net^
 ||youtube-to-transcript.online^
+||youtube-tools.pro^
 ||youtube.com/embed/$domain=akhbarelyom.com
 ||youtube.com/embed/$domain=icutit.ca|sxyprn.net
 ||youtube.com/embed/$domain=onionplay.*
