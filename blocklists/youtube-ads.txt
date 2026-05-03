@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-02 08:15 UTC
-! Entries: 1495
+! Last modified: 2026-05-03 08:28 UTC
+! Entries: 1487
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1117,24 +1117,20 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||ad.ma.doubleclick.net^
 ||ad.me.doubleclick.net^
 ||ad.mo.doubleclick.net^
-||ad.mx.doubleclick.net^
 ||ad.my.doubleclick.net^
 ||ad.n2434.doubleclick.net^
 ||ad.nl.doubleclick.net^
 ||ad.no.doubleclick.net^
 ||ad.nz.doubleclick.net^
-||ad.ph.doubleclick.net^
 ||ad.pk.doubleclick.net^
 ||ad.pl.doubleclick.net^
 ||ad.pt.doubleclick.net^
 ||ad.ro.doubleclick.net^
 ||ad.rs.doubleclick.net^
 ||ad.ru.doubleclick.net^
-||ad.sa.doubleclick.net^
 ||ad.se.doubleclick.net^
 ||ad.sg.doubleclick.net^
 ||ad.si.doubleclick.net^
-||ad.sk.doubleclick.net^
 ||ad.terra.doubleclick.net^
 ||ad.th.doubleclick.net^
 ||ad.tr.doubleclick.net^
@@ -1167,6 +1163,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||doubleclickbygoogle.com^
 ||doubleclicks.biz^
 ||dredown.com/images/youtube.png$popup
+||eternal-youtube.ru^
 ||fcmatch.youtube.com^
 ||ff.doubleclick.net^
 ||fls.doubleclick.net^
@@ -1202,7 +1199,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$redirect=noop-1s.mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com,media
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||gtm.formulayoutube.com.br^
-||gw-youtube.com^
 ||hager.com/*/youtubeblocker.js
 ||iptv-youtube.com^
 ||kursy-youtube.pro^
@@ -1434,10 +1430,10 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noop.js,important,domain=link.rota.cc
 ||serverside.doubleclick.net^
 ||sexy-youtubers.com/fronfrontfront.js
-||skachat-video-s-youtube-5.ru^
-||skachat-video-s-youtube-6.ru^
-||skachat-video-s-youtube-7.ru^
-||skachat-video-s-youtube-8.ru^
+||skachat-video-s-youtube-10.ru^
+||skachat-video-s-youtube-11.ru^
+||skachat-video-s-youtube-12.ru^
+||skachat-video-s-youtube-9.ru^
 ||slushat-youtube.ru^
 ||smetrics.cbc.youtube.mercedes-benz.com^
 ||static-doubleclick-net.l.google.com^
@@ -1454,7 +1450,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$domain=a2zupload.com|a2zapk.co,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
-||unyoutube.net^
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
@@ -1463,9 +1458,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-downloader.ru^
 ||youtube-hd.com^
 ||youtube-helper.com^
-||youtube-leicht-gemacht.de^
-||youtube-mcp.com^
-||youtube-muziek-downloaden.nl^
 ||youtube-pislya-opivnochi.online^
 ||youtube-prernium.com^
 ||youtube-share.com^
