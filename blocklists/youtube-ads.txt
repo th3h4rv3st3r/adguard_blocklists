@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-03 08:28 UTC
-! Entries: 1487
+! Last modified: 2026-05-04 09:10 UTC
+! Entries: 1496
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1117,20 +1117,24 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||ad.ma.doubleclick.net^
 ||ad.me.doubleclick.net^
 ||ad.mo.doubleclick.net^
+||ad.mx.doubleclick.net^
 ||ad.my.doubleclick.net^
 ||ad.n2434.doubleclick.net^
 ||ad.nl.doubleclick.net^
 ||ad.no.doubleclick.net^
 ||ad.nz.doubleclick.net^
+||ad.ph.doubleclick.net^
 ||ad.pk.doubleclick.net^
 ||ad.pl.doubleclick.net^
 ||ad.pt.doubleclick.net^
 ||ad.ro.doubleclick.net^
 ||ad.rs.doubleclick.net^
 ||ad.ru.doubleclick.net^
+||ad.sa.doubleclick.net^
 ||ad.se.doubleclick.net^
 ||ad.sg.doubleclick.net^
 ||ad.si.doubleclick.net^
+||ad.sk.doubleclick.net^
 ||ad.terra.doubleclick.net^
 ||ad.th.doubleclick.net^
 ||ad.tr.doubleclick.net^
@@ -1151,6 +1155,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
 ||dart-ad.l.doubleclick.net^
+||desktop-youtube.com^
 ||dmca-youtube.cfd^
 ||doubleclick-cn.net^
 ||doubleclick.com^
@@ -1164,6 +1169,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||doubleclicks.biz^
 ||dredown.com/images/youtube.png$popup
 ||eternal-youtube.ru^
+||fanza-youtube.com^
 ||fcmatch.youtube.com^
 ||ff.doubleclick.net^
 ||fls.doubleclick.net^
@@ -1404,6 +1410,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com$script,xhr,other,redirect=noopvast-2.0
 ||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams/*/time-events.json$important,domain=cbs.com|paramountplus.com|history.com
 ||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xhr,redirect=noop.txt,domain=sbs.com.au
+||reklamsiz-youtube.site^
 ||reply-youtube.com^
 ||revancedyoutube.org^
 ||rich-media-dynamic-ads-api.l.doubleclick.net^
@@ -1450,14 +1457,17 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$domain=a2zupload.com|a2zapk.co,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
+||unyoutube.net^
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
 ||youtube-banner-maker.com^
+||youtube-curation.com^
 ||youtube-dmca.cfd^
 ||youtube-downloader.ru^
 ||youtube-hd.com^
 ||youtube-helper.com^
+||youtube-monopole.com^
 ||youtube-pislya-opivnochi.online^
 ||youtube-prernium.com^
 ||youtube-share.com^
@@ -1466,7 +1476,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-tags-generator.com^
 ||youtube-thumb-nail-download.com^
 ||youtube-thumbnail-download.watch^
-||youtube-thumbnail-grabber.in^
 ||youtube-to-transcript.net^
 ||youtube-to-transcript.online^
 ||youtube-tools.pro^
