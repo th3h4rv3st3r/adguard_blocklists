@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-06 09:13 UTC
-! Entries: 1493
+! Last modified: 2026-05-07 09:23 UTC
+! Entries: 1496
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -829,7 +829,6 @@ mix957gr.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 mixrootmod.com##+js(prevent-fetch, /adoto\.net|pagead2\.googlesyndication\.com/)
 mixrootmods.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 mmsmasala.com##+js(prevent-fetch, pagead2.googlesyndication.com)
-modernjs.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 money.pl##a[href^="https://ad.doubleclick.net/"]
 moovitapp.com##+js(prevent-fetch, /www3\.doubleclick\.net|googlesyndication/)
 mtg-print.com##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -943,7 +942,6 @@ supermarches.ca##+js(prevent-fetch, pagead2.googlesyndication.com)
 svapo.it##.adsbox.doubleclick.ad-placement:style(display: block !important;)
 tabletowo.pl#@#a[href^="https://ad.doubleclick.net/"]
 tallgalls.com,variedvortex.com,pubgmobile.cloud,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com##+js(prevent-fetch, pagead2.googlesyndication.com)
-tamilprint51.online##+js(prevent-fetch, pagead2.googlesyndication.com)
 tarnowska.tv##+js(prevent-fetch, pagead2.googlesyndication.com)
 teatmik.ee##+js(prevent-fetch, pagead2.googlesyndication.com)
 techacrobat.com##+js(prevent-fetch, https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js)
@@ -1009,12 +1007,11 @@ vwforum.ro##+js(prevent-fetch, pagead2.googlesyndication.com)
 watch.plex.tv##+js(prevent-fetch, /doubleclick\.com/ method:HEAD, , opaque)
 webmail.email.it##+js(prevent-fetch, pagead2.googlesyndication.com)
 webmatrices.com##+js(no-xhr-if, pagead2.googlesyndication.com)
-wellness4live.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 weshare.is##+js(prevent-fetch, doubleclick.net)
 weshare.is,skycall.online##+js(prevent-fetch, pagead2.googlesyndication.com)
 whatsafterthemovie.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 wingeno.org,winshell.org##+js(prevent-fetch, pagead2.googlesyndication.com)
-wmovies.one,2embed.org,vidnest.io,vidara.so,vidara.to,doramasonline.org,asd.pics,seeflix.to,stmup.*,s1p1cd.com,strmup.*,flashstream.cc,vixcloud.*,dovkembed.pw,daddylive3.com,ico3c.com,jhdanime.live,tuktukcenma.cam,dramafire.site,miravd.com,3isk.icu,3isk.info,mlbbox.me,icma.az,embedtv.net,megaup.net,luluvid.com,baxoi.buzz,dlhd.*,kaoruhana.com,hianime.to,capo6play.com,fastflix.top,tamilprint51.online,curiosidadtop.com,asd.homes,dorawatch.net,zorroplay.xyz,rpmvid.com,olympustaff.com,hianime.nz,streamcasthub.store,luluvdoo.com,bigwarp.*,cuevana.*,tinyzonetv.cc,youtubemp4.to,forcedtoplay.xyz,cricstreams.re,luckypatchers.com,nmac.to,kinoger.*,snowmtl.ru,animeflv.net,dbsullca.com,topembed.pw,xsportbox.com,linksly.co,anidl.org,hxfile.co,aniworld.to,bclikeqt.com,serien.cam,190.115.18.20,superfilmes.tv,gofilmes.me,warezcdn.com,gowatchseries.*,onlinevideoconverter.com,shadowrangers.live,serienstream.to,goyabu.com,190.115.18.20,databasegdriveplayer.*,watchomovies.*,stream-complet.biz,hh3dhay.com,animesonehd.xyz,cinemakottaga.*,mangahere.today,manganatos.com,animepahe.*,moviesverse.*,messitv.net,slink.bid,shavetape.*,imgbase.ru,klubsports.xyz,world4ufree1.*,simsdom.com,send.cm,sampledrive.in,telefullenvivo.com,streamtapeadblock.*,bflix.to,speedostream.com,yomovies.*,9xmovie.click,airportseirosafar.com,filmovi.ws,gentlewasher.com,mobilephonedir.com,mobiro.org,mp3-gratis.it,mp3-vk.ru,rojadirectahd.online,vbox7-mp3.info,vkmp3s.ru,getmega.net,mobdropro.com,askim-bg.com,comofuncionaque.com,hdzone.org,hwnaturkya.com,ibrasoftware.com,mega-mkv.com,nosong.ru,vkmp3.*,vudeo.io,crystal-launcher.net,crystal-launcher.pl,streamz.ws,animefreak.*,streaming-french.com,watchserieshd.*,lrepacks.net,animeonline.ninja,ssoap2day.*,bmovies.*,techgeek.digital,hurawatch.*,jujutsukaisen-manga.online,pelismart.com,pelismarthd.com,up-load.io,cima-club.*,yesmovies.*,adblockstrtape.link,adblockstrtech.link,vidoo.org,gomoviefree.*,extreme-down.plus,noob4cast.com,cricplay2.xyz,nba-streams.online,mangasco.com,masengwa.com,adblockstreamtape.*,hurawatch.at,tainio-mania.online,vipboxtv.*,upbam.org,myviid.com,vidbam.org,stardima.net,stardima.com,unblockedsites.net,serieskao.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,socceronline.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,divicast.com,uploadflix.org,gdriveplayer.to,lookmoviess.com,beinmatch.*,imgdawgknuttz.com,tv.hd44.net,123-movies.*,dramacool.*,vanime.co,kiss-anime.*,okanime.tv,wat32.tv,eplayvid.*,tvply.me,projectfreetv2.com,faselhd.*,123movie.*,mycima.ink,nocensor.*,shahed4u.*,animeunity.*,mp4upload.com,fmovies.*##+js(abort-current-script, document.createElement, delete window)
+wmovies.one,2embed.org,vidnest.io,vidara.so,vidara.to,doramasonline.org,asd.pics,seeflix.to,stmup.*,s1p1cd.com,strmup.*,flashstream.cc,vixcloud.*,dovkembed.pw,daddylive3.com,ico3c.com,jhdanime.live,tuktukcenma.cam,dramafire.site,miravd.com,3isk.icu,3isk.info,mlbbox.me,icma.az,embedtv.net,megaup.net,luluvid.com,baxoi.buzz,dlhd.*,kaoruhana.com,hianime.to,capo6play.com,fastflix.top,curiosidadtop.com,asd.homes,dorawatch.net,zorroplay.xyz,rpmvid.com,olympustaff.com,hianime.nz,streamcasthub.store,luluvdoo.com,bigwarp.*,cuevana.*,tinyzonetv.cc,youtubemp4.to,forcedtoplay.xyz,cricstreams.re,luckypatchers.com,nmac.to,kinoger.*,snowmtl.ru,animeflv.net,dbsullca.com,topembed.pw,xsportbox.com,linksly.co,anidl.org,hxfile.co,aniworld.to,bclikeqt.com,serien.cam,190.115.18.20,superfilmes.tv,gofilmes.me,warezcdn.com,gowatchseries.*,onlinevideoconverter.com,shadowrangers.live,serienstream.to,goyabu.com,190.115.18.20,databasegdriveplayer.*,watchomovies.*,stream-complet.biz,hh3dhay.com,animesonehd.xyz,cinemakottaga.*,mangahere.today,manganatos.com,animepahe.*,moviesverse.*,messitv.net,slink.bid,shavetape.*,imgbase.ru,klubsports.xyz,world4ufree1.*,simsdom.com,send.cm,sampledrive.in,telefullenvivo.com,streamtapeadblock.*,bflix.to,speedostream.com,yomovies.*,9xmovie.click,airportseirosafar.com,filmovi.ws,gentlewasher.com,mobilephonedir.com,mobiro.org,mp3-gratis.it,mp3-vk.ru,rojadirectahd.online,vbox7-mp3.info,vkmp3s.ru,getmega.net,mobdropro.com,askim-bg.com,comofuncionaque.com,hdzone.org,hwnaturkya.com,ibrasoftware.com,mega-mkv.com,nosong.ru,vkmp3.*,vudeo.io,crystal-launcher.net,crystal-launcher.pl,streamz.ws,animefreak.*,streaming-french.com,watchserieshd.*,lrepacks.net,animeonline.ninja,ssoap2day.*,bmovies.*,techgeek.digital,hurawatch.*,jujutsukaisen-manga.online,pelismart.com,pelismarthd.com,up-load.io,cima-club.*,yesmovies.*,adblockstrtape.link,adblockstrtech.link,vidoo.org,gomoviefree.*,extreme-down.plus,noob4cast.com,cricplay2.xyz,nba-streams.online,mangasco.com,masengwa.com,adblockstreamtape.*,hurawatch.at,tainio-mania.online,vipboxtv.*,upbam.org,myviid.com,vidbam.org,stardima.net,stardima.com,unblockedsites.net,serieskao.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,socceronline.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,divicast.com,uploadflix.org,gdriveplayer.to,lookmoviess.com,beinmatch.*,imgdawgknuttz.com,tv.hd44.net,123-movies.*,dramacool.*,vanime.co,kiss-anime.*,okanime.tv,wat32.tv,eplayvid.*,tvply.me,projectfreetv2.com,faselhd.*,123movie.*,mycima.ink,nocensor.*,shahed4u.*,animeunity.*,mp4upload.com,fmovies.*##+js(abort-current-script, document.createElement, delete window)
 woiden.id##+js(prevent-fetch, www3.doubleclick.net)
 work.ink##+js(prevent-fetch, /quantserve\.com|adligature\.com|srvtrck\.com|outbrain\.com|primis\.tech|hotjar\.com|googlesyndication\.com/)
 wouterplanet.com##+js(prevent-fetch, /pagead2\.googlesyndication\.com|in\.getclicky\.com/)
@@ -1102,32 +1099,39 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||ad.fi.doubleclick.net^
 ||ad.fr.doubleclick.net^
 ||ad.gr.doubleclick.net^
+||ad.gt.doubleclick.net^
 ||ad.hk.doubleclick.net^
 ||ad.hr.doubleclick.net^
 ||ad.hu.doubleclick.net^
 ||ad.ie.doubleclick.net^
 ||ad.il.doubleclick.net^
 ||ad.in.doubleclick.net^
+||ad.is.doubleclick.net^
 ||ad.it.doubleclick.net^
 ||ad.jp.doubleclick.net^
 ||ad.kr.doubleclick.net^
+||ad.kw.doubleclick.net^
 ||ad.ma.doubleclick.net^
 ||ad.me.doubleclick.net^
 ||ad.mo.doubleclick.net^
+||ad.mx.doubleclick.net^
 ||ad.my.doubleclick.net^
 ||ad.n2434.doubleclick.net^
 ||ad.nl.doubleclick.net^
 ||ad.no.doubleclick.net^
 ||ad.nz.doubleclick.net^
+||ad.ph.doubleclick.net^
 ||ad.pk.doubleclick.net^
 ||ad.pl.doubleclick.net^
 ||ad.pt.doubleclick.net^
 ||ad.ro.doubleclick.net^
 ||ad.rs.doubleclick.net^
 ||ad.ru.doubleclick.net^
+||ad.sa.doubleclick.net^
 ||ad.se.doubleclick.net^
 ||ad.sg.doubleclick.net^
 ||ad.si.doubleclick.net^
+||ad.sk.doubleclick.net^
 ||ad.terra.doubleclick.net^
 ||ad.th.doubleclick.net^
 ||ad.tr.doubleclick.net^
@@ -1144,7 +1148,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||adservice.google.com/adsid/integrator.js$script,redirect=noop.js,domain=961thebreeze.com
 ||afs.googleadservices.com^
 ||analytics.youtube.com^
-||bdyoutube.com^
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
@@ -1186,6 +1189,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googleadservices-cn.com^
 ||googleadservices.com.cn^
 ||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=ncsoft.jp,important
+||googleadservices.de^
 ||googleadservices.net^
 ||googlesyndication-cn.com^
 ||googlesyndication.com/pagead/
@@ -1202,6 +1206,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||kursy-youtube.pro^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
+||loadyoutube.com^
 ||m.doubleclick.net^
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||mediavisor.doubleclick.net^
@@ -1453,28 +1458,28 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
+||youtube-backhaulix.top^
 ||youtube-banner-maker.com^
-||youtube-bitrax.top^
+||youtube-castonix.top^
 ||youtube-curation.com^
-||youtube-dmca.cfd^
-||youtube-fluxionix.top^
+||youtube-droprix.top^
 ||youtube-indonesia.xyz^
-||youtube-meshallon.top^
+||youtube-notice.net^
 ||youtube-prernium.com^
-||youtube-proxora.top^
+||youtube-segmenyx.top^
 ||youtube-site.com^
 ||youtube-sub-folders.com^
 ||youtube-summarizer.com^
 ||youtube-surf.online^
-||youtube-thumb-nail-download.com^
+||youtube-switchonix.top^
 ||youtube-thumbnail-download.watch^
 ||youtube-to-mp3.io^
 ||youtube-to-transcript.net^
 ||youtube-to-transcript.online^
-||youtube-trunkora.top^
 ||youtube-video.org^
 ||youtube-watch.site^
 ||youtube-watching.site^
+||youtube.berlin^
 ||youtube.com/embed/$domain=akhbarelyom.com
 ||youtube.com/embed/$domain=icutit.ca|sxyprn.net
 ||youtube.com/embed/$domain=onionplay.*
@@ -1490,7 +1495,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com^$domain=sarapbabe.com
 ||youtube.local^
 ||youtube.net.au^
-||youtube2mp3.online^
 ||youtube4kdownloader.com/scripts/stats.js
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
@@ -1498,6 +1502,5 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtuberevanced.net^
 ||youtubesave.org^
 ||youtubetomp3music.com/static/js/pops-
-||youtubetomp4.download^
 ||youtubevanced.tools^
 ||ytlarge.com/youtube/*728-90.
