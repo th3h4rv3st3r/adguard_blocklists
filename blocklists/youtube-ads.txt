@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-07 09:23 UTC
-! Entries: 1496
+! Last modified: 2026-05-08 08:16 UTC
+! Entries: 1494
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1189,7 +1189,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googleadservices-cn.com^
 ||googleadservices.com.cn^
 ||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=ncsoft.jp,important
-||googleadservices.de^
 ||googleadservices.net^
 ||googlesyndication-cn.com^
 ||googlesyndication.com/pagead/
@@ -1206,7 +1205,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||kursy-youtube.pro^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
-||loadyoutube.com^
 ||m.doubleclick.net^
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||mediavisor.doubleclick.net^
@@ -1438,6 +1436,10 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||skachat-video-s-youtube-10.ru^
 ||skachat-video-s-youtube-11.ru^
 ||skachat-video-s-youtube-12.ru^
+||skachat-video-s-youtube-13.ru^
+||skachat-video-s-youtube-14.ru^
+||skachat-video-s-youtube-15.ru^
+||skachat-video-s-youtube-16.ru^
 ||skachat-video-s-youtube-9.ru^
 ||slushat-youtube.ru^
 ||smetrics.cbc.youtube.mercedes-benz.com^
@@ -1458,28 +1460,24 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
-||youtube-backhaulix.top^
+||xn--youtubetrkiye-3ob.xyz^
 ||youtube-banner-maker.com^
-||youtube-castonix.top^
 ||youtube-curation.com^
-||youtube-droprix.top^
 ||youtube-indonesia.xyz^
-||youtube-notice.net^
-||youtube-prernium.com^
-||youtube-segmenyx.top^
 ||youtube-site.com^
+||youtube-soken.com^
 ||youtube-sub-folders.com^
 ||youtube-summarizer.com^
+||youtube-support.icu^
+||youtube-support.online^
 ||youtube-surf.online^
-||youtube-switchonix.top^
-||youtube-thumbnail-download.watch^
 ||youtube-to-mp3.io^
 ||youtube-to-transcript.net^
 ||youtube-to-transcript.online^
+||youtube-trending.app^
 ||youtube-video.org^
 ||youtube-watch.site^
 ||youtube-watching.site^
-||youtube.berlin^
 ||youtube.com/embed/$domain=akhbarelyom.com
 ||youtube.com/embed/$domain=icutit.ca|sxyprn.net
 ||youtube.com/embed/$domain=onionplay.*
