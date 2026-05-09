@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-08 08:16 UTC
-! Entries: 1494
+! Last modified: 2026-05-09 08:23 UTC
+! Entries: 1495
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1168,7 +1168,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||fcmatch.youtube.com^
 ||ff.doubleclick.net^
 ||fls.doubleclick.net^
-||free-youtube-transcript.com^
 ||fuga-youtube.ru^
 ||g.doubleclick.net/gampad/ads?$xhr,removeparam=/^(cookie|ga_|u_)/,domain=soranews24.com
 ||g.doubleclick.net/gpt/pubads_impl_$script,domain=investopedia.com,important
@@ -1201,10 +1200,9 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||gtm.formulayoutube.com.br^
 ||hager.com/*/youtubeblocker.js
-||iptv-youtube.com^
-||kursy-youtube.pro^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
+||loadyoutube.com^
 ||m.doubleclick.net^
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||mediavisor.doubleclick.net^
@@ -1460,10 +1458,15 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
+||xn--trkiyeyoutube-wob.live^
+||xn--youtubetrkiye-3ob.best^
 ||xn--youtubetrkiye-3ob.xyz^
 ||youtube-banner-maker.com^
+||youtube-chapter-generator.com^
 ||youtube-curation.com^
 ||youtube-indonesia.xyz^
+||youtube-magic.com^
+||youtube-magic.online^
 ||youtube-site.com^
 ||youtube-soken.com^
 ||youtube-sub-folders.com^
@@ -1472,8 +1475,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-support.online^
 ||youtube-surf.online^
 ||youtube-to-mp3.io^
-||youtube-to-transcript.net^
-||youtube-to-transcript.online^
 ||youtube-trending.app^
 ||youtube-video.org^
 ||youtube-watch.site^
