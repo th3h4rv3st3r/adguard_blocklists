@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-09 08:23 UTC
-! Entries: 1495
+! Last modified: 2026-05-10 08:47 UTC
+! Entries: 1496
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1202,7 +1202,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||hager.com/*/youtubeblocker.js
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
-||loadyoutube.com^
 ||m.doubleclick.net^
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||mediavisor.doubleclick.net^
@@ -1464,12 +1463,13 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-banner-maker.com^
 ||youtube-chapter-generator.com^
 ||youtube-curation.com^
+||youtube-downloader.org^
+||youtube-filmek.info^
 ||youtube-indonesia.xyz^
 ||youtube-magic.com^
 ||youtube-magic.online^
 ||youtube-site.com^
 ||youtube-soken.com^
-||youtube-sub-folders.com^
 ||youtube-summarizer.com^
 ||youtube-support.icu^
 ||youtube-support.online^
@@ -1495,6 +1495,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.local^
 ||youtube.net.au^
 ||youtube4kdownloader.com/scripts/stats.js
+||youtubee.com^
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.app^
