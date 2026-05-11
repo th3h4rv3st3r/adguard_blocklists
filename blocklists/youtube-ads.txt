@@ -1,7 +1,7 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-10 08:47 UTC
+! Last modified: 2026-05-11 10:26 UTC
 ! Entries: 1496
 ! Expires: 1 day
 !
@@ -920,6 +920,7 @@ shojoscans.com,en-thunderscans.com##+js(prevent-fetch, /(jubnaadserve|googlesynd
 shorttrick.in##+js(no-xhr-if, pagead2.googlesyndication.com)
 shqipkinema.cc##+js(prevent-fetch, pagead2.googlesyndication.com)
 sitelike.org##+js(prevent-fetch, https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js)
+skym3u.top##+js(no-setTimeout-if, pagead2.googlesyndication.com)
 slink.bid##+js(prevent-fetch, pagead2.googlesyndication.com)
 smallseotools.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 smartworld.it##+js(no-xhr-if, /pagead2\.googlesyndication\.com|adsafeprotected\.com|adsense\/search\/ads\.js|cdn\.iubenda\.com\/cs\/iubenda_cs\.js/)
@@ -1164,6 +1165,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||doubleclick.uk.net^
 ||doubleclickbygoogle.com^
 ||doubleclicks.biz^
+||download-youtube.org^
 ||dredown.com/images/youtube.png$popup
 ||fcmatch.youtube.com^
 ||ff.doubleclick.net^
@@ -1177,7 +1179,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||g.doubleclick.net^
 ||gaming-youtube-banner.icu^
 ||gan.doubleclick.net^
-||google-adsgdoubleclick.com^
 ||googleads.g.doubleclick.net/pagead/ads$redirect=noop.html,domain=forum.release-apk.com,subdocument
 ||googleads.g.doubleclick.net/pagead/html/*.html$subdocument,redirect-rule=noop.html,domain=decrypt.day
 ||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup.html$redirect=noop.html,domain=forum.release-apk.com,subdocument
@@ -1207,7 +1208,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||mediavisor.doubleclick.net^
 ||metrics.cbc.youtube.mercedes-benz.com^
 ||mp3-youtube.net^
-||my-youtube-channel.com^
 ||n4403ad.doubleclick.net^
 ||pagead2.googleadservices.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||pagead2.googlesyndication.com/getconfig/sodar?$xhr,important,domain=decrypt.day
