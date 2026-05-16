@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-15 09:36 UTC
-! Entries: 1459
+! Last modified: 2026-05-16 08:29 UTC
+! Entries: 1456
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -272,7 +272,6 @@ $xhr,3p,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|dood
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=seminarstopics.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=shrink.world
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=simply-debrid.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=simpmusic.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=simsdom.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sivadictionaries.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skmedix.pl
@@ -1437,7 +1436,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$domain=a2zupload.com|a2zapk.co,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
-||unyoutube.net^
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
@@ -1464,6 +1462,5 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtuberevanced.net^
 ||youtubesave.org^
 ||youtubetomp3music.com/static/js/pops-
-||youtubevanced.gg^
 ||youtubevanced.tools^
 ||ytlarge.com/youtube/*728-90.
