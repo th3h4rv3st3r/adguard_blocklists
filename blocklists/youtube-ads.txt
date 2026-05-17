@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-16 08:29 UTC
-! Entries: 1456
+! Last modified: 2026-05-17 08:56 UTC
+! Entries: 1495
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1100,39 +1100,32 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||ad.fi.doubleclick.net^
 ||ad.fr.doubleclick.net^
 ||ad.gr.doubleclick.net^
-||ad.gt.doubleclick.net^
 ||ad.hk.doubleclick.net^
 ||ad.hr.doubleclick.net^
 ||ad.hu.doubleclick.net^
 ||ad.ie.doubleclick.net^
 ||ad.il.doubleclick.net^
 ||ad.in.doubleclick.net^
-||ad.is.doubleclick.net^
 ||ad.it.doubleclick.net^
 ||ad.jp.doubleclick.net^
 ||ad.kr.doubleclick.net^
-||ad.kw.doubleclick.net^
 ||ad.ma.doubleclick.net^
 ||ad.me.doubleclick.net^
 ||ad.mo.doubleclick.net^
-||ad.mx.doubleclick.net^
 ||ad.my.doubleclick.net^
 ||ad.n2434.doubleclick.net^
 ||ad.nl.doubleclick.net^
 ||ad.no.doubleclick.net^
 ||ad.nz.doubleclick.net^
-||ad.ph.doubleclick.net^
 ||ad.pk.doubleclick.net^
 ||ad.pl.doubleclick.net^
 ||ad.pt.doubleclick.net^
 ||ad.ro.doubleclick.net^
 ||ad.rs.doubleclick.net^
 ||ad.ru.doubleclick.net^
-||ad.sa.doubleclick.net^
 ||ad.se.doubleclick.net^
 ||ad.sg.doubleclick.net^
 ||ad.si.doubleclick.net^
-||ad.sk.doubleclick.net^
 ||ad.terra.doubleclick.net^
 ||ad.th.doubleclick.net^
 ||ad.tr.doubleclick.net^
@@ -1149,10 +1142,14 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||adservice.google.com/adsid/integrator.js$script,redirect=noop.js,domain=961thebreeze.com
 ||afs.googleadservices.com^
 ||analytics.youtube.com^
+||baliwalker-youtube.com^
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
 ||dart-ad.l.doubleclick.net^
+||desktop-youtube.com^
+||dianxixiaoge-youtube.com^
+||dmcayoutube.com^
 ||doubleclick-cn.net^
 ||doubleclick.com^
 ||doubleclick.ctfile.com^
@@ -1196,8 +1193,14 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||gtm.formulayoutube.com.br^
 ||hager.com/*/youtubeblocker.js
+||hizokujin-youtube.com^
+||juanesvelez-youtube.com^
+||kristoboginski-youtube.com^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
+||liziqi-youtube.com^
+||loadyoutube.com^
+||loscuentosderodo-youtube.com^
 ||m.doubleclick.net^
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||mediavisor.doubleclick.net^
@@ -1394,12 +1397,14 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com$script,xhr,other,redirect=noopvast-2.0
 ||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams/*/time-events.json$important,domain=cbs.com|paramountplus.com|history.com
 ||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xhr,redirect=noop.txt,domain=sbs.com.au
+||reklamsiz-youtube.site^
 ||reply-youtube.com^
 ||revancedyoutube.org^
 ||rich-media-dynamic-ads-api.l.doubleclick.net^
 ||roforum.net/youtube/banner.php$popup
 ||s3.amazonaws.com^$domain=oko.sh|linkrex.net|youtubemultidownloader.com|fullypcgames.net|itdmusic.com|filescdn.com|katfile.com|nitroflare.com|uploads.to|bluemediafiles.*|dropgalaxy.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*
 ||samsungtechwin.com/ezossp/*/pagead2.googlesyndication.com/
+||schreibtisch-youtube.com^
 ||secureframe.doubleclick.net^
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_$domain=epaper.timesgroup.com,important
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_$domain=gumtree.com,important
@@ -1421,6 +1426,11 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noop.js,important,domain=link.rota.cc
 ||serverside.doubleclick.net^
 ||sexy-youtubers.com/fronfrontfront.js
+||skachat-video-s-youtube-12.ru^
+||skachat-video-s-youtube-13.ru^
+||skachat-video-s-youtube-14.ru^
+||skachat-video-s-youtube-15.ru^
+||skachat-video-s-youtube-16.ru^
 ||smetrics.cbc.youtube.mercedes-benz.com^
 ||static-doubleclick-net.l.google.com^
 ||static.doubleclick.net/instream/ad_status.js$domain=last.fm,redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
@@ -1436,10 +1446,36 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$domain=a2zupload.com|a2zapk.co,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
+||tracking.doubleclicked.com^
 ||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
+||xn--trkiyeyoutube-wob.live^
+||xn--youtubetrkiye-3ob.best^
+||xn--youtubetrkiye-3ob.xyz^
+||youtube-chapter-generator.com^
+||youtube-clip.com^
+||youtube-cookiesave.com^
+||youtube-curation.com^
+||youtube-dlp.xyz^
+||youtube-downloader.org^
+||youtube-filmek.info^
+||youtube-indonesia.xyz^
+||youtube-letter.com^
+||youtube-magic.com^
+||youtube-magic.online^
+||youtube-map.com^
+||youtube-onlinesupport.xyz^
+||youtube-rewardss.site^
 ||youtube-site.com^
+||youtube-soken.com^
+||youtube-sponsors.com^
+||youtube-support.icu^
+||youtube-support.online^
+||youtube-surf.online^
+||youtube-to-mp3.io^
+||youtube-trending.app^
+||youtube-video.org^
 ||youtube.com/embed/$domain=akhbarelyom.com
 ||youtube.com/embed/$domain=icutit.ca|sxyprn.net
 ||youtube.com/embed/$domain=onionplay.*
@@ -1454,9 +1490,12 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com/youtubei/v1/player/ad_break
 ||youtube.com^$domain=sarapbabe.com
 ||youtube.local^
+||youtube.net.au^
 ||youtube4kdownloader.com/scripts/stats.js
+||youtubeacquisition.com^
 ||youtubee.com^
 ||youtubee.top^
+||youtubefest.com^
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.app^
 ||youtuberevanced.net^
