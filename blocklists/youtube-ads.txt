@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-05-20 10:15 UTC
-! Entries: 1512
+! Last modified: 2026-05-21 10:27 UTC
+! Entries: 1516
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -654,7 +654,6 @@ canirunthegame.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 canstar.com.au,mail.yahoo.com,trulia.com#@#a[href^="https://ad.doubleclick.net/"]
 cars.com#@#a[href^="https://adclick.g.doubleclick.net/"]
 cboxera.com##+js(prevent-fetch, pagead2.googlesyndication.com)
-chatgptdemo.info,chatgptdemo.net##+js(prevent-fetch, pagead2.googlesyndication.com)
 chaturflix.cam##+js(no-setTimeout-if, googlesyndication.com)
 chaturflix.cam##.adsbox.doubleclick.ad-placement:style(display: block !important;)
 cheaptickets.com,ebookers.com,expedia.*,hotels.com,orbitz.com,travelocity.ca,travelocity.com,wotif.com##div[class="uitk-spacing uitk-spacing-margin-blockstart-three"]:has(a[href^="https://adclick.g.doubleclick.net/pcs/click?"])
@@ -1020,7 +1019,7 @@ www.youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 www.youtube.com##+js(no-setTimeout-if, ()\,a\,b), 5000)
 www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.web_streaming_watch, false)
 xxxonxxx.com,youtubelike.com##.gallery-thumbs
-yeptube.*,vids.st,area.waffi.cloud,nutripulse.one,vercel.app,zdrive.to,1moviesz.to,apksum.com,xvideos-full.com,freemanga.me,funlove.info,javsubidn.tv,streamvid.dev,vidnest.live,vidnest.io,familyporn.tv,5play.app,bingespree.net,spencerdevs.xyz,easyvidplayer.com,cloudhostingz.com,sharedwebs.com,fitnessplanss.com,porn4days.blue,embedplayer.site,animahd.com,exposestrat.com,embedsports.top,vidplayer.live,vik1ngfile.site,fbol.top,sterham.net,embed4me.com,megatukmax.xyz,primewire.tf,ytapi.cc,mygomp3.com,imagebam.com,ezplayer.me,datavaults.co,clickapi.net,y2down.cc,themezon.net,serverguidez.com,streamup.ws,vidlink.pro,cdn.hentaianimezone.com,themezon.net,galaxyporn.net,teknoasian.com,downloadyoutubesubtitles.com,alex71.com,kecapku.com,vidfast.pro,pornharlot.net,meong.club,hianimez.*,travelironguide.com,kreditexperte.online,shortnest.com,vikingf1le.us.to,mixzdrive.com,get.linkbulks.com,play.upns.live,dropzy.io,dayuploads.com,filespayouts.com,ranoz.gg,zovo.ink,manhwahentai.me,filespayout.com,1movielinkbd.com,ytmp3.la,swiftuploads.com,techbloogs.com,oii.la,englismovies.pro,tpi.li,go.cloutgist.com,brbeast.com,vidsrc2.*,tutwuri.id,lokerwfh.net,insmyst.com,iir.la,tvi.la,cosplay18.pics,hianime.*,mobiletvshows.site,movies4u.*,x-x-x.tube,pornx.to,4khd.com,dlhd.*,kissanime.*,vidsrc.*,pahe.*##+js(no-window-open-if)
+yeptube.*,vids.st,area.waffi.cloud,nutripulse.one,vercel.app,zdrive.to,1moviesz.to,apksum.com,xvideos-full.com,freemanga.me,funlove.info,javsubidn.tv,streamvid.dev,vidnest.live,vidnest.io,familyporn.tv,5play.app,bingespree.net,spencerdevs.xyz,easyvidplayer.com,cloudhostingz.com,sharedwebs.com,fitnessplanss.com,porn4days.blue,embedplayer.site,animahd.com,exposestrat.com,embedsports.top,vidplayer.live,vik1ngfile.site,fbol.top,sterham.net,embed4me.com,megatukmax.xyz,primewire.tf,ytapi.cc,mygomp3.com,imagebam.com,ezplayer.me,datavaults.co,clickapi.net,y2down.cc,themezon.net,serverguidez.com,streamup.ws,vidlink.pro,cdn.hentaianimezone.com,themezon.net,galaxyporn.net,teknoasian.com,downloadyoutubesubtitles.com,alex71.com,kecapku.com,vidfast.pro,pornharlot.net,meong.club,hianimez.*,travelironguide.com,kreditexperte.online,shortnest.com,vikingf1le.us.to,mixzdrive.com,get.linkbulks.com,play.upns.live,dropzy.io,dayuploads.com,filespayouts.com,ranoz.gg,zovo.ink,manhwahentai.me,1movielinkbd.com,ytmp3.la,swiftuploads.com,techbloogs.com,oii.la,englismovies.pro,tpi.li,go.cloutgist.com,brbeast.com,vidsrc2.*,tutwuri.id,lokerwfh.net,insmyst.com,iir.la,tvi.la,cosplay18.pics,hianime.*,mobiletvshows.site,movies4u.*,x-x-x.tube,pornx.to,4khd.com,dlhd.*,kissanime.*,vidsrc.*,pahe.*##+js(no-window-open-if)
 yokugames.com,cimaramadan.site##+js(prevent-fetch, pagead2.googlesyndication.com)
 youtube-nocookie.com##.ytp-ad-progress-list
 youtube.com###description-inner > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer
@@ -1152,12 +1151,15 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||alumni-youtube.net^
 ||analytics.youtube.com^
 ||baliwalker-youtube.com^
+||beauty9-youtube.com^
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
+||cynthiadulude-youtube.com^
 ||dalitcamera-youtube.com^
 ||dart-ad.l.doubleclick.net^
 ||dashcamrussia-youtube.com^
+||deutschmitmarijadobrovolska-youtube.com^
 ||dianxixiaoge-youtube.com^
 ||doubleclick-cn.net^
 ||doubleclick.com^
@@ -1170,6 +1172,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||doubleclickbygoogle.com^
 ||doubleclicks.biz^
 ||dredown.com/images/youtube.png$popup
+||easygerman-youtube.com^
 ||fcmatch.youtube.com^
 ||ff.doubleclick.net^
 ||fls.doubleclick.net^
@@ -1179,6 +1182,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299$xhr,redirect=noop.txt,domain=pvpoke-re.com
 ||g.doubleclick.net/pagead/ads?gdpr=$subdocument,redirect=noop.html,domain=decrypt.day
 ||g.doubleclick.net^
+||gaiameditation-youtube.com^
 ||gan.doubleclick.net^
 ||googleads.g.doubleclick.net/pagead/ads$redirect=noop.html,domain=forum.release-apk.com,subdocument
 ||googleads.g.doubleclick.net/pagead/html/*.html$subdocument,redirect-rule=noop.html,domain=decrypt.day
@@ -1201,8 +1205,10 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$redirect=noop-1s.mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com,media
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||gtm.formulayoutube.com.br^
+||gurudevsrisriravishankarinhindi-youtube.com^
 ||hager.com/*/youtubeblocker.js
 ||hizokujin-youtube.com^
+||ichkocheheute-youtube.com^
 ||juanesvelez-youtube.com^
 ||jukebox-youtube.com^
 ||koreanenglishman-youtube.com^
@@ -1210,6 +1216,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||learndanishwithdanishclass101-youtube.com^
 ||leiki-doubleclick-proxy.appspot.com^
+||lepayspreferedesfrancais-youtube.com^
 ||liziqi-youtube.com^
 ||loscuentosderodo-youtube.com^
 ||luisitocomunica-youtube.com^
@@ -1220,6 +1227,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||metrics.cbc.youtube.mercedes-benz.com^
 ||mountaintrekker-youtube.com^
 ||n4403ad.doubleclick.net^
+||nishamadhulika-youtube.com^
 ||pagead2.googleadservices.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||pagead2.googlesyndication.com/getconfig/sodar?$xhr,important,domain=decrypt.day
 ||pagead2.googlesyndication.com/pagead/$script,domain=gsmarena.com,important
@@ -1405,7 +1413,9 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||partnerssl.googleadservices.com^
 ||paypalssl.doubleclick.net^
 ||playbuzz.com^$domain=javarevisited.blogspot.com|nsfwyoutube.com|sportsplays.com|dailyhive.com|straightdope.com
+||pmchindi-youtube.com^
 ||privacysandbox.googleadservices.com^
+||pro-youtube.com^
 ||pubads.g.doubleclick.net/gampad/ads?$redirect=noop.txt,important,domain=vtvgiaitri.vn,image,media,subdocument,stylesheet,script,xhr,other
 ||pubads.g.doubleclick.net/gampad/ads?*&output=xml_vast$domain=stream.thecwvideo.com,redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
 ||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com$script,xhr,other,redirect=noopvast-2.0
@@ -1441,10 +1451,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noop.js,important,domain=link.rota.cc
 ||serverside.doubleclick.net^
 ||sexy-youtubers.com/fronfrontfront.js
-||skachat-video-s-youtube-13.ru^
-||skachat-video-s-youtube-14.ru^
 ||skachat-video-s-youtube-15.ru^
-||skachat-video-s-youtube-16.ru^
 ||smetrics.cbc.youtube.mercedes-benz.com^
 ||st22-youtube.com^
 ||static-doubleclick-net.l.google.com^
@@ -1455,6 +1462,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||stats.g.doubleclick.net/r/collect?$image,redirect=1x1.gif,domain=sheee.co.il
 ||stats.g.doubleclick.net^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||stats.l.doubleclick.net^
+||streaming-youtube.com^
 ||swiss001-youtube.com^
 ||td.doubleclick.net^
 ||tdsf.doubleclick.net^
@@ -1471,7 +1479,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||wwwyoutube.com^
 ||xn--trkiyeyoutube-wob.live^
 ||xn--youtubetrkiye-3ob.best^
-||xn--youtubetrkiye-3ob.xyz^
 ||youtube-alumni.com^
 ||youtube-alumni.net^
 ||youtube-chapter-generator.com^
@@ -1491,10 +1498,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube-parcing.com^
 ||youtube-rewardss.site^
 ||youtube-site.com^
-||youtube-soken.com^
 ||youtube-sponsors.com^
-||youtube-support.online^
-||youtube-trending.app^
 ||youtube.com/embed/$domain=akhbarelyom.com
 ||youtube.com/embed/$domain=icutit.ca|sxyprn.net
 ||youtube.com/embed/$domain=onionplay.*
