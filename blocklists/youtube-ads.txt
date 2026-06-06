@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-06-05 10:38 UTC
-! Entries: 1334
+! Last modified: 2026-06-06 09:15 UTC
+! Entries: 1399
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1067,20 +1067,52 @@ zeroupload.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 zippyshare.day##+js(prevent-fetch, pagead2.googlesyndication.com)
 zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||*.com/|$3p,domain=youtubepro.app
+||0youtube.com^
+||100youtube.com^
 ||1gr.cz/*/js/uni/paticka.js$domain=antiyoutuber.cz
 ||2mdn.net/videoplayback/$redirect=noop-1s.mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com,media
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
+||accounts.doubleclick.net^
+||ad-ace.doubleclick.net^
+||ad-apac.doubleclick.net^
+||ad-doubleclick-net.cdn.ampproject.org^
+||ad-emea.doubleclick.net^
+||ad.at.doubleclick.net^
+||ad.au.doubleclick.net^
+||ad.br.doubleclick.net^
+||ad.ca.doubleclick.net^
+||ad.cn.doubleclick.net^
+||ad.de.doubleclick.net^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.doubleclick.net/favicon.ico$image,redirect=32x32.png,domain=planetrugby.com|loverugbyleague.com
+||ad.es.doubleclick.net^
+||ad.fr.doubleclick.net^
+||ad.gr.doubleclick.net^
+||ad.jp.doubleclick.net^
+||ad.nl.doubleclick.net^
+||ad.no.doubleclick.net^
+||ad.pt.doubleclick.net^
+||ad.uk.doubleclick.net^
 ||adservice.google.*/adsid/integrator.js?domain=dl.ccbluex.net$redirect=noop.txt,important,domain=dl.ccbluex.net,image,media,subdocument,stylesheet,script,xhr,other
 ||adservice.google.com/adsid/integrator.js$script,redirect=noop.js,domain=961thebreeze.com
+||afs.googleadservices.com^
+||analytics.youtube.com^
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
 ||doubleclick-cn.net^
 ||doubleclick.com^
+||doubleclick.ctfile.com^
+||doubleclick.de^
+||doubleclick.host^
+||doubleclick.ne.jp^
 ||doubleclick.net^$popup
+||doubleclick.uk.net^
+||doubleclickbygoogle.com^
+||doubleclicks.biz^
 ||dredown.com/images/youtube.png$popup
+||fcmatch.youtube.com^
+||ff.doubleclick.net^
 ||fls.doubleclick.net^
 ||g.doubleclick.net/gampad/ads?$xhr,removeparam=/^(cookie|ga_|u_)/,domain=soranews24.com
 ||g.doubleclick.net/gpt/pubads_impl_$script,domain=investopedia.com,important
@@ -1088,6 +1120,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299$xhr,redirect=noop.txt,domain=pvpoke-re.com
 ||g.doubleclick.net/pagead/ads?gdpr=$subdocument,redirect=noop.html,domain=decrypt.day
 ||g.doubleclick.net^
+||gan.doubleclick.net^
 ||googleads.g.doubleclick.net/pagead/ads$redirect=noop.html,domain=forum.release-apk.com,subdocument
 ||googleads.g.doubleclick.net/pagead/html/*.html$subdocument,redirect-rule=noop.html,domain=decrypt.day
 ||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup.html$redirect=noop.html,domain=forum.release-apk.com,subdocument
@@ -1096,7 +1129,10 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googleads.g.doubleclick.net/pagead/id$xhr,redirect=noop.txt,important,domain=guides.magicgameworld.com
 ||googleads.g.doubleclick.net/pagead/js/adsbygoogle.js$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||googleadservices-cn.com^
+||googleadservices.com.cn^
 ||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=ncsoft.jp,important
+||googleadservices.net^
+||googlesyndication-cn.com^
 ||googlesyndication.com/pagead/
 ||googlesyndication.com/safeframe/
 ||googlesyndication.com/safeframe/$subdocument,redirect=noop.html,domain=soranews24.com
@@ -1107,7 +1143,11 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||hager.com/*/youtubeblocker.js
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
+||leiki-doubleclick-proxy.appspot.com^
+||m.doubleclick.net^
 ||m.youtube.com/get_midroll_$domain=youtube.com
+||mediavisor.doubleclick.net^
+||n4403ad.doubleclick.net^
 ||pagead2.googleadservices.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||pagead2.googlesyndication.com/getconfig/sodar?$xhr,important,domain=decrypt.day
 ||pagead2.googlesyndication.com/pagead/$script,domain=gsmarena.com,important
@@ -1284,17 +1324,27 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||pagead2.googlesyndication.com/pub-config/*/ca-pub-*.js$script,redirect=noop.js,important,domain=dl.ccbluex.net
 ||pagead2.googlesyndication.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=wunderground.com
 ||pagead2.googlesyndication.com^$domain=listatv.pl,important
+||pageadgooglesyndication.com^
+||partner.googleadservices.com^
 ||partner.googleadservices.com^$3p
 ||partner.googleadservices.com^$third-party
+||partner46.googleadservices.com^
+||partnerad.l.doubleclick.net^
+||partnerssl.googleadservices.com^
+||paypalssl.doubleclick.net^
 ||playbuzz.com^$domain=javarevisited.blogspot.com|nsfwyoutube.com|sportsplays.com|dailyhive.com|straightdope.com
+||privacysandbox.googleadservices.com^
 ||pubads.g.doubleclick.net/gampad/ads?$redirect=noop.txt,important,domain=vtvgiaitri.vn,image,media,subdocument,stylesheet,script,xhr,other
 ||pubads.g.doubleclick.net/gampad/ads?*&output=xml_vast$domain=stream.thecwvideo.com,redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
 ||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com$script,xhr,other,redirect=noopvast-2.0
 ||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams/*/time-events.json$important,domain=cbs.com|paramountplus.com|history.com
 ||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xhr,redirect=noop.txt,domain=sbs.com.au
+||reply-youtube.com^
+||revancedyoutube.org^
 ||roforum.net/youtube/banner.php$popup
 ||s3.amazonaws.com^$domain=oko.sh|linkrex.net|youtubemultidownloader.com|fullypcgames.net|itdmusic.com|filescdn.com|katfile.com|nitroflare.com|uploads.to|bluemediafiles.*|dropgalaxy.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*
 ||samsungtechwin.com/ezossp/*/pagead2.googlesyndication.com/
+||secureframe.doubleclick.net^
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_$domain=epaper.timesgroup.com,important
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_$domain=gumtree.com,important
 ||securepubads.g.doubleclick.net/pagead/ppub_config$xhr,redirect=noop.js,important,domain=independent.co.uk,script
@@ -1313,18 +1363,28 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,important,domain=purposegames.com
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noop.js,domain=redketchup.io,important
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noop.js,important,domain=link.rota.cc
+||serverside.doubleclick.net^
 ||sexy-youtubers.com/fronfrontfront.js
+||static-doubleclick-net.l.google.com^
 ||static.doubleclick.net/instream/ad_status.js$domain=last.fm,redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
 ||static.doubleclick.net^
 ||stats.g.doubleclick.net/*/collect?$xhr,redirect=noop.txt,domain=sheee.co.il
 ||stats.g.doubleclick.net/dc.js$script,redirect=noop.js,domain=synonimy.pl
 ||stats.g.doubleclick.net/r/collect?$image,redirect=1x1.gif,domain=sheee.co.il
 ||stats.g.doubleclick.net^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
+||stats.l.doubleclick.net^
+||td.doubleclick.net^
+||tdsf.doubleclick.net^
+||thumbnailyoutubedownload.com^
 ||tpc.googlesyndication.com/safeframe/*/html/container.html$xhr,redirect=noop.txt,domain=megainteresting.com
 ||tpc.googlesyndication.com/simgad/$domain=a2zupload.com|a2zapk.co,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
+||wavyoutube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
+||wwwyoutube.com^
+||youtube-site.com^
+||youtube-thumbnail-download.online^
 ||youtube.com/embed/$domain=akhbarelyom.com
 ||youtube.com/embed/$domain=icutit.ca|sxyprn.net
 ||youtube.com/embed/*?*&origin=*.filma24.*&widgetid$domain=filma24.*,important
@@ -1339,6 +1399,11 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com^$domain=sarapbabe.com
 ||youtube.local^
 ||youtube4kdownloader.com/scripts/stats.js
+||youtubee.com^
+||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
+||youtuberevanced.app^
+||youtuberevanced.net^
 ||youtubetomp3music.com/static/js/pops-
+||youtubevanced.tools^
 ||ytlarge.com/youtube/*728-90.
