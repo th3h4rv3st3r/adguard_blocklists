@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-06-06 09:15 UTC
-! Entries: 1399
+! Last modified: 2026-06-07 09:54 UTC
+! Entries: 1400
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1142,6 +1142,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$redirect=noop-1s.mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com,media
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||hager.com/*/youtubeblocker.js
+||insurance-youtube.com^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
 ||m.doubleclick.net^
@@ -1375,7 +1376,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||stats.l.doubleclick.net^
 ||td.doubleclick.net^
 ||tdsf.doubleclick.net^
-||thumbnailyoutubedownload.com^
 ||tpc.googlesyndication.com/safeframe/*/html/container.html$xhr,redirect=noop.txt,domain=megainteresting.com
 ||tpc.googlesyndication.com/simgad/$domain=a2zupload.com|a2zapk.co,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
@@ -1384,7 +1384,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
 ||youtube-site.com^
-||youtube-thumbnail-download.online^
+||youtube-to-m4a.com^
 ||youtube.com/embed/$domain=akhbarelyom.com
 ||youtube.com/embed/$domain=icutit.ca|sxyprn.net
 ||youtube.com/embed/*?*&origin=*.filma24.*&widgetid$domain=filma24.*,important
@@ -1404,6 +1404,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.app^
 ||youtuberevanced.net^
+||youtubethumbnaildownload.org^
 ||youtubetomp3music.com/static/js/pops-
 ||youtubevanced.tools^
 ||ytlarge.com/youtube/*728-90.
