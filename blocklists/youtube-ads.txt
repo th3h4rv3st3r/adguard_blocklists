@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-06-11 11:15 UTC
-! Entries: 1405
+! Last modified: 2026-06-12 10:55 UTC
+! Entries: 1393
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -888,6 +888,7 @@ replica-watch.info##+js(prevent-fetch, pagead2.googlesyndication.com)
 resulthubdtu.com##+js(prevent-fetch, googleads.g.doubleclick.net)
 returnyoutubedislike.com###top-donors
 rimworldbase.com##+js(no-xhr-if, pagead2.googlesyndication.com)
+rscripts.net##+js(prevent-fetch, doubleclick)
 s0ft4pc.com,portable4pc.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 sa7eralkutub.com##+js(abort-current-script, document.createElement, pagead2.googlesyndication.com)
 safeframe.googlesyndication.com##.left-container
@@ -942,7 +943,7 @@ summarizingtool.net,allmath.com##.adsbox.doubleclick.ad-placement:style(display:
 supermarches.ca##+js(prevent-fetch, pagead2.googlesyndication.com)
 svapo.it##.adsbox.doubleclick.ad-placement:style(display: block !important;)
 tabletowo.pl#@#a[href^="https://ad.doubleclick.net/"]
-tallgalls.com,variedvortex.com,pubgmobile.cloud,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com##+js(prevent-fetch, pagead2.googlesyndication.com)
+tallgalls.com,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 tarnowska.tv##+js(prevent-fetch, pagead2.googlesyndication.com)
 teatmik.ee##+js(prevent-fetch, pagead2.googlesyndication.com)
 techacrobat.com##+js(prevent-fetch, https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js)
@@ -1097,9 +1098,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com,important
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cm.g.doubleclick.net/pixel?$image,redirect=1x1.gif,domain=sheee.co.il|walla.co.il
-||convert-youtube.com^
-||dashcamrussia-youtube.com^
-||dianxixiaoge-youtube.com^
 ||doubleclick-cn.net^
 ||doubleclick.com^
 ||doubleclick.ctfile.com^
@@ -1143,12 +1141,9 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$redirect=noop-1s.mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com,media
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||hager.com/*/youtubeblocker.js
-||juanesvelez-youtube.com^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
-||leiki-doubleclick-proxy.appspot.com^
 ||m.doubleclick.net^
 ||m.youtube.com/get_midroll_$domain=youtube.com
-||marshallyoutube.net^
 ||mediavisor.doubleclick.net^
 ||pagead2.googleadservices.com^$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||pagead2.googlesyndication.com/getconfig/sodar?$xhr,important,domain=decrypt.day
@@ -1344,7 +1339,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||roforum.net/youtube/banner.php$popup
 ||s3.amazonaws.com^$domain=oko.sh|linkrex.net|youtubemultidownloader.com|fullypcgames.net|itdmusic.com|filescdn.com|katfile.com|nitroflare.com|uploads.to|bluemediafiles.*|dropgalaxy.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*
 ||samsungtechwin.com/ezossp/*/pagead2.googlesyndication.com/
-||sdfgskesafdeayoutube.com^
 ||secureframe.doubleclick.net^
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_$domain=epaper.timesgroup.com,important
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_$domain=gumtree.com,important
@@ -1381,14 +1375,9 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
 ||unyoutube.net^
-||valterzanardiletture-youtube.com^
 ||wavyoutube.com^
-||whattowatch-youtube.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwyoutube.com^
-||youtube-clip.com^
-||youtube-downloader-4k.com^
-||youtube-rewardss.site^
 ||youtube-site.com^
 ||youtube-thumbnail-download.online^
 ||youtube.com/embed/$domain=akhbarelyom.com
@@ -1405,7 +1394,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com^$domain=sarapbabe.com
 ||youtube4kdownloader.com/scripts/stats.js
 ||youtubee.com^
-||youtubee.dev^
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuberevanced.app^
