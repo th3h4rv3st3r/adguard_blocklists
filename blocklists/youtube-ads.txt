@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-06-20 09:55 UTC
-! Entries: 1403
+! Last modified: 2026-06-21 10:22 UTC
+! Entries: 1402
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1199,7 +1199,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=anime-king.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=anycodings.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=arkadium.com
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.*|miuiku.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|indokontraktor.com|neosatsu.com|shahidd4u.net|shaid4u.day|shahhid4u.cam|shhahid4u.day|shhahid4u.cam|shahid4u.*|shahid4u.you|shahid-4u.*|shahid-4u.day|shahid-4u.my|sshahid4u.*|sshahid4u.day|shah4u.*|shah4u.day|shaahed4u.net|shiid4u.day|shhahhed4u.net|shahheid4u.net|shaheiid4u.net|odiadance.com
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.*|miuiku.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|indokontraktor.com|neosatsu.com|shahidd4u.net|shaid4u.day|shahhid4u.cam|shhahid4u.day|shhahid4u.cam|shahid4u.*|shahid4u.you|shahid-4u.*|shahid-4u.day|shahid-4u.my|sshahid4u.*|sshahid4u.day|shah4u.*|shah4u.day|shaahed4u.net|shiid4u.day|shhahhed4u.net|shahheid4u.net|shaheiid4u.net|odiadance.com|shaheed4u.day
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=imagetotext.info
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=investing.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=jpopsingles.eu
@@ -1385,7 +1385,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||tpc.googlesyndication.com/simgad/$domain=a2zupload.com|a2zapk.co,redirect=1x1.gif,important,image
 ||tpc.googlesyndication.com/simgad/$image,redirect=2x2.png,domain=a2zapk.io
 ||tpc.googlesyndication.com^$image,redirect=1x1.gif,domain=soranews24.com,important
-||unyoutube.net^
 ||wavyoutube.com^
 ||workers.dev^$header=x-target-domain:pagead2.googlesyndication.com
 ||www.youtube.com/get_midroll_$domain=youtube.com
