@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-07-27 10:30 UTC
-! Entries: 1484
+! Last modified: 2026-07-28 09:28 UTC
+! Entries: 1483
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -710,7 +710,6 @@ flixscans.*##+js(prevent-fetch, pagead2.googlesyndication.com)
 fordownloader.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 fplstatistics.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 freac.org###leftcol > div.module:has(> div script[src^="http://pagead2.googlesyndication.com"])
-freecoursesonline.me##+js(prevent-fetch, pagead2.googlesyndication.com)
 freemagazines.top,magesy.blog,routech.ro##+js(no-xhr-if, pagead2.googlesyndication.com)
 freewsad.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ftuapps.dev##+js(prevent-fetch, pagead2.googlesyndication.com)
