@@ -1,7 +1,7 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-09-02 11:47 UTC
+! Last modified: 2026-09-03 11:47 UTC
 ! Entries: 1483
 ! Expires: 1 day
 !
@@ -587,6 +587,7 @@ actualidadiphone.com###abn_singlestealer:not(:has(> div.nav-youtube))
 ads.google.com,youtube.com#@#.video-ads
 aerospacenotes.com,fromfahad.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 afl.com.au#@#a[href^="http://pubads.g.doubleclick.net/"]
+aii.sh,pahe.plus,aii.sh,oii.la,oko.sh,tii.la##+js(prevent-fetch, /pagead2\.googlesyndication\.com|inklinkor\.com|amazon-adsystem\.com|doubleclick\.net|googleadservices\.com/)
 ajdown.space##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.net|adservice\.google\.com/)
 akcniceny.cz,autojournal.cz,idos.cz,impuls.cz,lidovky.cz,idnes.cz,expres.cz,antiyoutuber.cz##body .r-main
 albkinema.in##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -856,7 +857,6 @@ nudecams.xxx##+js(no-xhr-if, pagead2.googlesyndication.com)
 odsluchane.eu##+js(prevent-fetch, pagead2.googlesyndication.com)
 offidocs.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 oggitreviso.it##+js(no-xhr-if, pagead2.googlesyndication.com, true)
-oii.la,oko.sh,tii.la##+js(prevent-fetch, /pagead2\.googlesyndication\.com|inklinkor\.com/)
 oii.la,tpi.li,tvi.la,aii.sh##+js(no-xhr-if, /pagead2\.googlesyndication\.com|inklinkor\.com/)
 okpeliz.com,ftuapps.dev,onehack.us##+js(no-xhr-if, pagead2.googlesyndication.com)
 okpeliz.com,ftuapps.dev,onehack.us##+js(prevent-fetch, pagead2.googlesyndication.com)
