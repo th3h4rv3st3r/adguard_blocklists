@@ -1,7 +1,7 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-09-05 10:58 UTC
+! Last modified: 2026-09-06 11:23 UTC
 ! Entries: 1484
 ! Expires: 1 day
 !
@@ -1102,7 +1102,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||ad.cn.doubleclick.net^
 ||ad.co.doubleclick.net^
 ||ad.cz.doubleclick.net^
-||ad.de.doubleclick.net^
 ||ad.dk.doubleclick.net^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.doubleclick.net/favicon.ico$image,redirect=32x32.png,domain=planetrugby.com|loverugbyleague.com
@@ -1167,6 +1166,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||creatives.doubleclick.net^
 ||dart-ad.l.doubleclick.net^
 ||dart-apac.l.doubleclick.net^
+||de.doubleclick.net^
 ||dfp.doubleclick.net^
 ||doubleclick-cn.net^
 ||doubleclick.com^
