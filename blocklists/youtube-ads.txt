@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-09-23 12:21 UTC
-! Entries: 1475
+! Last modified: 2026-09-24 12:21 UTC
+! Entries: 1476
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -587,7 +587,6 @@ afl.com.au#@#a[href^="http://pubads.g.doubleclick.net/"]
 ajdown.space##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.net|adservice\.google\.com/)
 akcniceny.cz,autojournal.cz,idos.cz,impuls.cz,lidovky.cz,idnes.cz,expres.cz,antiyoutuber.cz##body .r-main
 albkinema.in##+js(prevent-fetch, pagead2.googlesyndication.com)
-amigosporn.com,01tube.com,onlyporn.tube,picazor.com,fapnado.com,sexy-youtubers.com##a[href="https://theporndude.com/"]
 androidcentral.com##a[href^="http://pubads.g.doubleclick.net/"]
 androidcentral.com##a[href^="https://ad.doubleclick.net"]
 androidecuatoriano.xyz##+js(prevent-fetch, pagead2.googlesyndication.com)
@@ -710,6 +709,7 @@ freac.org###leftcol > div.module:has(> div script[src^="http://pagead2.googlesyn
 freemagazines.top,magesy.blog,routech.ro##+js(no-xhr-if, pagead2.googlesyndication.com)
 freewsad.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ftuapps.dev##+js(prevent-fetch, pagead2.googlesyndication.com)
+fullvideosporn.com,inporn.com,amigosporn.com,01tube.com,onlyporn.tube,picazor.com,fapnado.com,sexy-youtubers.com##a[href="https://theporndude.com/"]
 fxmag.pl##+js(no-xhr-if, pagead2.googlesyndication.com)
 galwaybayfm.ie##div[data-dfp][data-slot][type="doubleclick"]
 game3rb.com##+js(prevent-fetch, /pagead2\.googlesyndication\.com|cloudfront\.net\/\?.*=/)
@@ -826,7 +826,6 @@ missavtv.com##+js(prevent-fetch, www3.doubleclick.net)
 mix957gr.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 mixrootmod.com##+js(prevent-fetch, /adoto\.net|pagead2\.googlesyndication\.com/)
 mixrootmods.com##+js(prevent-fetch, pagead2.googlesyndication.com)
-mjakmalopolska.pl,krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl##+js(prevent-fetch, pagead2.googlesyndication.com)
 mmsmasala.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 mods.to##+js(abort-current-script, document.createElement, pagead2.googlesyndication.com)
 money.pl##a[href^="https://ad.doubleclick.net/"]
@@ -880,6 +879,7 @@ prepostseo.com##+js(prevent-fetch, /pagead2\.googlesyndication\.com|\/ad\.js/)
 programmingeeksclub.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 quackr.io##+js(prevent-fetch, pagead2.googlesyndication.com)
 quienhabla.mx##+js(no-xhr-if, pagead2.googlesyndication.com)
+radiotczew.pl,mjakmalopolska.pl,krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl##+js(prevent-fetch, pagead2.googlesyndication.com)
 rajsayt.xyz##+js(prevent-fetch, pagead2.googlesyndication.com)
 readcomiconline.li##+js(no-xhr-if, /bidgear\.com|mgid\.com|pagead2\.googlesyndication\.com/)
 redbook.com.au##.is-section-doubleclickad
@@ -1195,6 +1195,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googleads.g.doubleclick.net/pagead/id$xhr,redirect=noop.txt,important,domain=guides.magicgameworld.com
 ||googleads.g.doubleclick.net/pagead/js/adsbygoogle.js$domain=topsporter.net,redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||googleadservices-cn.com^
+||googleadservices.at^
 ||googleadservices.com.cn^
 ||googleadservices.com.com^
 ||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=ncsoft.jp,important
