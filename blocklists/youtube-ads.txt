@@ -1,7 +1,7 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-10-11 13:35 UTC
+! Last modified: 2026-10-12 16:12 UTC
 ! Entries: 1465
 ! Expires: 1 day
 !
@@ -707,7 +707,6 @@ freac.org###leftcol > div.module:has(> div script[src^="http://pagead2.googlesyn
 freemagazines.top,magesy.blog,routech.ro##+js(no-xhr-if, pagead2.googlesyndication.com)
 freewsad.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ftuapps.dev##+js(prevent-fetch, pagead2.googlesyndication.com)
-fullvideosporn.com,inporn.com,amigosporn.com,01tube.com,onlyporn.tube,picazor.com,fapnado.com,sexy-youtubers.com##a[href="https://theporndude.com/"]
 fxmag.pl##+js(no-xhr-if, pagead2.googlesyndication.com)
 galwaybayfm.ie##div[data-dfp][data-slot][type="doubleclick"]
 game3rb.com##+js(prevent-fetch, /pagead2\.googlesyndication\.com|cloudfront\.net\/\?.*=/)
@@ -902,6 +901,7 @@ searchenginereports.net##+js(no-xhr-if, pagead2.googlesyndication.com)
 securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,important,domain=maharashtratimes.com
 segurosdevida.site##+js(prevent-fetch, pagead2.googlesyndication.com)
 senest.dk##+js(prevent-fetch, pagead2.googlesyndication.com)
+sexwave.net,onlychickshub.com,3dporndude.com,fullvideosporn.com,inporn.com,amigosporn.com,01tube.com,onlyporn.tube,picazor.com,fapnado.com,sexy-youtubers.com##a[href="https://theporndude.com/"]
 sexy-youtubers.com##.meetfuck
 sexy-youtubers.com##.site-sidebar > aside.widget:contains(var ad_idzone)
 sexy-youtubers.com##.td-ss-main-sidebar > aside.widget > div.textwidget > p a:not([href*="sexy-youtubers.com"])
