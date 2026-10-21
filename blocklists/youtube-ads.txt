@@ -1,7 +1,7 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-10-20 12:20 UTC
+! Last modified: 2026-10-21 12:29 UTC
 ! Entries: 1470
 ! Expires: 1 day
 !
