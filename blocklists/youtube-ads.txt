@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-11-21 14:58 UTC
-! Entries: 1470
+! Last modified: 2026-11-22 14:56 UTC
+! Entries: 1472
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -1060,6 +1060,7 @@ za.gl,za.uy##+js(prevent-fetch, pagead2.googlesyndication.com)
 zdopravy.cz##+js(prevent-fetch, pagead2.googlesyndication.com)
 zeriun.cc##+js(prevent-fetch, pagead2.googlesyndication.com)
 zeroupload.com##+js(prevent-fetch, pagead2.googlesyndication.com)
+zeta-ai.io##+js(prevent-fetch, tpc.googlesyndication.com/sodar/sodar2.js)
 zippyshare.day##+js(prevent-fetch, pagead2.googlesyndication.com)
 zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||*.com/|$3p,domain=youtubepro.app
@@ -1209,6 +1210,7 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||hager.com/*/youtubeblocker.js
 ||ir.doubleclick.net^
+||islam.youtubesitegroup.com^
 ||iv.doubleclick.net^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
