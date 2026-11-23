@@ -1,8 +1,8 @@
 ! Title: YouTube Ads Blocklist
 ! Description: Bloqueia anuncios do YouTube para AdGuard Home
 ! Homepage: https://github.com/th3h4rv3st3r/adguard_blocklists
-! Last modified: 2026-11-22 14:56 UTC
-! Entries: 1472
+! Last modified: 2026-11-23 18:48 UTC
+! Entries: 1470
 ! Expires: 1 day
 !
 ! ── REGRAS CUSTOMIZADAS ────────────────────────────────────
@@ -762,7 +762,7 @@ investing.com##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.
 investing.com##+js(prevent-fetch, securepubads.g.doubleclick.net)
 iptvpulse.top##+js(no-setTimeout-if, pagead2.googlesyndication.com)
 isi7.net##+js(prevent-fetch, pagead2.googlesyndication.com)
-ithardware.pl##+js(abort-current-script, document.getElementById, ad.doubleclick.net)
+ithardware.pl##+js(abort-current-script, document.getElementById, /window\.open|ad\.doubleclick\.net/)
 itopmusics.com,novelasligeras.net,4horlover.com##+js(abort-current-script, document.getElementById, pagead2.googlesyndication.com)
 itscybertech.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 itvbd.com##.widget_text_inner div:not([class],[id]) a[target="_blank"]:not([href*="youtube.com"]) > img
@@ -1210,7 +1210,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||hager.com/*/youtubeblocker.js
 ||ir.doubleclick.net^
-||islam.youtubesitegroup.com^
 ||iv.doubleclick.net^
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
 ||leiki-doubleclick-proxy.appspot.com^
@@ -1470,7 +1469,6 @@ zsexf.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 ||youtube.com/youtubei/v1/player/ad_break
 ||youtube.com^$domain=sarapbabe.com
 ||youtube4kdownloader.com/scripts/stats.js
-||youtubee.com^
 ||youtubee.top^
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youtuber-cash.buzz^
